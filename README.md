@@ -28,11 +28,11 @@ This is the copy of website for The 5<sup>th</sup> International Conference on B
 
 ### Symposia images
 All symposia images are free to use via Unsplash and Pexels.
-+ Big Data for Public Health Policy symposium by [Mikael Blomkvist](https://unsplash.com/photos/bD1bK7IUvd8); [Free to use](https://www.pexels.com/license/).
++ Big Data for Public Health Policy symposium by [Nataliya Vaitkevich](https://www.pexels.com/photo/vaccination-document-and-a-smartphone-8830662/); [Free to use](https://www.pexels.com/license/).
 + Bioinformatics and Data Mining symposium by [Chris Liverani](https://unsplash.com/photos/dBI_My696Rk); [Free to use](https://www.pexels.com/license/).
 + Biomedical Sciences and Engineering symposium by [Jesse orrico](https://unsplash.com/photos/rmWtVQN5RzU); [Free to use](https://unsplash.com/license)).
 + Biomolecular and Biotechnology symposium by [National Cancer Institute](https://unsplash.com/photos/p1zy6izFI0M); [Free to use](https://unsplash.com/license).
-+ Drug Development and Nutraceutical symposium by [Raimond Klavins](https://unsplash.com/photos/n-7HTOiJPso); [Free to use](https://unsplash.com/license).
++ Drug Development and Nutraceutical symposium by [Nataliya Vaitkevich](https://www.pexels.com/photo/flat-lay-photo-of-alternative-medicines-7615460/); [Free to use](https://www.pexels.com/license/).
 
 ### Logos
 + UGM and BioMIC logos © Universitas Gadjah Mada
