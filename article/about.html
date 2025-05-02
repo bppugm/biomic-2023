@@ -7,7 +7,7 @@
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
     name="viewport">
 
-  <title>About the conference - BioMIC 2021</title>
+  <title>About the conference - BioMIC UGM 2023</title>
 
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700" rel="stylesheet">
@@ -19,11 +19,17 @@
   <link href="../stylesheets/custom.css" rel="stylesheet" />
 
   <!-- JAVASCRIPT -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="../javascripts/bootstrap.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
-  <script src="../javascripts/gtag.js"></script>
+  <script src="../javascripts/bootstrap.bundle.js"></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RE2REFGTQR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RE2REFGTQR');
+</script>
 
 
   <!-- FAVICON -->
@@ -39,12 +45,12 @@
 
 <body class="index">
 
-  <header style="background-color: #f8f7fd; box-shadow: 0 1px 2px 0 #e1e5ea;">
+  <header style="background-color: #eeedf2; box-shadow: 0 1px 2px 0 #e1e5ea;">
     <!-- NAVBAR -->
     <nav class="navbar bg-primary pt-1">
       <div class="container">
         <a class="navbar-brand"><span class="nav me-auto pt-1" style="color: #fff; font-size: 9pt">Yogyakarta,
-            Indonesia. 6–7 October 2021</span></a>
+            Indonesia. 6–7 September 2023</span></a>
         <ul class="nav">
           <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
               href="https://twitter.com/biomicugm" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
@@ -60,7 +66,7 @@
     </nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand"><img src="../images/logos/logo.svg" width="100px"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../images/logos/logo.svg" width="80px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
           aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -68,21 +74,70 @@
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
           aria-labelledby="offcanvasNavbar2Label">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC 2021</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC UGM 2023</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
               aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="satellite-events.html">Satellite events</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About BioMIC 2023</a></li>
+                  <li><a class="dropdown-item" href="../index.html#important-dates">Important dates</a></li>
+                  <li><a class="dropdown-item" href="about.html#committee">Committees</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="https://biomic.ugm.ac.id/previous">Previous conferences</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="satellite-events.html">All event</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="big-data-for-public-health-policy.html">BDPHP Symposium</a></li>
+                  <li><a class="dropdown-item" href="bioinformatics-and-data-mining.html">BDM Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomedical-sciences-and-engineering.html">BSE Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomolecular-and-biotechnology.html">BB Symposium</a></li>
+                  <li><a class="dropdown-item" href="drug-development-and-nutraceutical.html">DDN Symposium</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="speakers.html">Speakers</a></li>
-              <li class="nav-item"><a class="nav-link" href="author-guidelines.html">Author</a></li>
-              <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Author
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="author-guidelines.html">Author guidelines</a></li>
+                  <li><a class="dropdown-item" href="editorial-policy.html">Editorial policy</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="submission.html">Submission</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item"
+                      href="https://www.bio-conferences.org/articles/bioconf/abs/2023/20/contents/contents.html"
+                      target="_blank">Publication</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
-              <li class="nav-item"><a class="nav-link" href="presentation.html">Presentation</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://biomicugm.tawk.help/">Help</a></li>
+              <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
+              <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
+              <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
             </ul>
           </div>
         </div>
@@ -91,28 +146,24 @@
     </nav>
   </header>
 
+  <!-- CONTENTS -->
+  <!-- <section>
+    <p class="alert alert-warning" style="text-align: center">Participants can only pay the conference fees after receiving an acceptance notification email.</p>
+  </section> -->
   <section
-    style="background: url('../images/jumbotron/jumbotron.jpg') center fixed no-repeat; background-size:cover; height: fit-content;">
+    style="background: url('../images/jumbotron/jumbotron.png') center fixed no-repeat; background-size:cover; height: fit-content;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <!-- INTRODUCTION -->
+        <div class="col-lg-6 py-5">
+          <!-- ABOUT -->
           <h1 id="about" style="text-align: left;">About <span style="color: #ff9800;">B<span
-                style="text-transform: lowercase;">io</span>MIC 2021</span></h1>
-          <p>Held as part of the Universitas Gadjah Mada Annual Scientific Conferences (UASC 2021) series, the 4th
-            International Conference on Bioinformatics, Biotechnology, and Biomedical Engineering (BioMIC 2021) provides
-            an ideal academic platform for researchers to present the latest research findings and describe emerging
-            technologies and directions in bioinformatics, biotechnology, and biomedical engineering.</p>
-          <p>This year, the conference will take the theme “Artificial Intelligence, Big Data and Precision Healthcare:
-            A Vision of the Future” with <a href="satellite-events.html">five symposia</a>:
-            <a href="big-data-for-public-health-policy.html">Big Data for Public Health Policy symposium</a>;
-            <a href="bioinformatics-and-data-mining.html">Bioinformatics and Data Mining symposium</a>;
-            <a href="biomedical-sciences-and-engineering.html">Biomedical Sciences and Engineering symposium</a>;
-            <a href="biomolecular-and-biotechnology.html">Biomolecular and Biotechnology symposium</a>; and
-            <a href="drug-development-and-nutraceutical.html">Drug Development and Nutraceutical symposium</a>.
-          </p>
-          <p>BioMIC 2021 receives manuscripts of <b>original research</b>, <b>review articles</b>, and <b>case
-              report</b>.</p>
+                style="text-transform: lowercase;">io</span>MIC 2023</span>
+          </h1>
+          <p style="text-align: justify;">The conference will be held for two days and will consist of plenary and
+            symposia sessions. The plenary sessions will be presented by a number of <a href="speakers.html">keynote
+              speakers</a>. The symposia session will consist of presentations from <a href="speakers.html">invited
+              speakers</a> and presenters for each topic, and it will take place in breakout rooms. All sessions will be
+            conducted in English.</p>
         </div>
       </div>
     </div>
@@ -120,18 +171,16 @@
   <section class="container">
     <div class="row">
       <div class="col-md-4 d-flex align-items-end flex-column px-5 py-3">
-        <a href="https://bppugm.github.io/biomic-2020" target="_blank"><button type="button"
+        <a href="https://biomic.ugm.ac.id/previous/" target="_blank"><button type="button"
             class="btn btn-transparent p-2">Previous B<span style="text-transform: lowercase;">io</span>MIC<i
               class="fa-solid fa-arrow-right" style="padding-left: 5px;"></i></button></a>
-        <a href="satellite-events.html"><button type="button" class="btn btn-transparent p-2">Satellite events<i
+        <a href="events.html"><button type="button" class="btn btn-transparent p-2">Events<i
+              class="fa-solid fa-arrow-right" style="padding-left: 5px;"></i></button></a>
+        <a href="guidelines.html"><button type="button" class="btn btn-transparent p-2">Author guidelines<i
               class="fa-solid fa-arrow-right" style="padding-left: 5px;"></i></button></a>
         <a href="speakers.html"><button type="button" class="btn btn-transparent p-2">Speakers<i
               class="fa-solid fa-arrow-right" style="padding-left: 5px;"></i></button></a>
-        <a href="author-guidelines.html"><button type="button" class="btn btn-transparent p-2">Author guidelines<i
-              class="fa-solid fa-arrow-right" style="padding-left: 5px;"></i></button></a>
         <a href="editorial-policy.html"><button type="button" class="btn btn-transparent p-2">Editorial policy<i
-              class="fa-solid fa-arrow-right" style="padding-left: 5px;"></i></button></a>
-        <a href="submission.html"><button type="button" class="btn btn-transparent p-2">Submission<i
               class="fa-solid fa-arrow-right" style="padding-left: 5px;"></i></button></a>
         <a href="fee.html"><button type="button" class="btn btn-transparent p-2">Fee<i class="fa-solid fa-arrow-right"
               style="padding-left: 5px;"></i></button></a>
@@ -142,100 +191,137 @@
         <a href="https://visitingjogja.jogjaprov.go.id/"><button type="button" class="btn btn-transparent p-2">City of
             Yogyakarta<i class="fa-solid fa-arrow-right" style="padding-left: 5px;"></i></button></a>
       </div>
-      <div class="col-md-8 pt-3">
+      <div class="col-md-8 pt-3" style="text-align: justify;">
+        <h2 class="pt-3" id="publication">Introduction</h2>
+        <p>Translational healthcare research has changed over time as technologies have advanced. Translational research
+          enhanced the process of leveraging healthcare data from all stakeholders in order to facilitate both the
+          discovery and translation, as well as the health outcomes associated with new health technologies and
+          therapies.</p>
+        <p>With the long-term goal of enhancing public health, translational research promotes the transdisciplinary
+          integration of basic research, patient-oriented research, and population-based research. The following stage
+          of evolution will use Big Data and Machine Learning (ML) to extract meaningful insight from Real World
+          Evidence and, in the process, enable strategies that close crucial knowledge and practice gaps and assist the
+          government in estimating the true value of treatments in terms of improving health and lowering costs.</p>
+        <p>The integration of knowledge across health system borders and the use of big data, analytics, and procedures
+          to promote collaboration and innovation are key components of accelerating medical and health research.
+          Utilizing technology that simplifies the information acquisition, representation, inference, and explanation
+          processes can improve innovation. Large-scale access to clinical, biological, and healthcare data offers
+          advancements in disease detection and treatment as well as improvements in patient health.</p>
+        <p>Interdisciplinary approaches to problem-solving and collaboration are becoming increasingly important in
+          facilitating knowledge discovery and integration. Big Data and ML technologies promise to have a profound
+          impact – enabling reproducibility, aiding discovery, and accelerating and transforming medical and healthcare
+          research across the healthcare ecosystem.</p>
+        <p>Held as part of the Universitas Gadjah Mada Annual Scientific Conferences (UASC 2023) series, the 5th
+          International Conference on Bioinformatics, Biotechnology, and Biomedical Engineering (BioMIC 2023) provides
+          an ideal academic platform for researchers to present the latest research findings and describe emerging
+          technologies and directions in bioinformatics, biotechnology, and biomedical engineering.</p>
+        <p>This year, the conference will take the theme "<b>Accelerating translational healthcare by leveraging big
+            data and machine learning</b>" with <a href="satellite-events.html">five symposia</a>: <a
+            href="big-data-for-public-health-policy.html">Big Data for Public Health Policy symposium</a>, <a
+            href="bioinformatics-and-data-mining.html">Bioinformatics and Data Mining symposium</a>, <a
+            href="biomedical-sciences-and-engineering.html">Biomedical Sciences and Engineering symposium</a>, <a
+            href="biomolecular-and-biotechnology.html">Biomolecular and Biotechnology symposium</a>, and <a
+            href="drug-development-and-nutraceutical.html">Drug Development and Nutraceutical symposium</a>.</p>
+        <p>BioMIC 2023 receives manuscripts of original research, review article, and case report.</p>
         <h2 class="pt-3" id="publication">Publications</h2>
-        <p>The accepted and presented papers <b>will be submitted to</b> proceedings <a
-            href="https://www.bio-conferences.org/about-the-journal/indexed-in" target="_blank">BIO Web of Conferences
-            (CPCI)</a>.<br><b>Selected papers</b> will be submitted to <a href="http://www.e-mjm.org/about_MJM.html"
-            target="_blank">Medical Journal of Malaysia</a> (<a
-            href="https://www.scimagojr.com/journalsearch.php?q=17838&tip=sid&clean=0" target="_blank">Special issue,
-            Scopus Q3</a>), <a href="https://medic.upm.edu.my/jurnal_kami-3046" target="_blank">Malaysian Journal of
-            Medicine & Health Sciences</a> (<a
-            href="https://www.scimagojr.com/journalsearch.php?q=11300153737&tip=sid&clean=0" target="_blank">Special
-            issue, Scopus Q4</a>), <a href="https://inabj.org/index.php/ibj" target="_blank">Indonesian Biomedical
-            Journal</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100843245&tip=sid&clean=0"
-            target="_blank">Scopus Q4</a>), <a href="http://indonesianjpharm.farmasi.ugm.ac.id/index.php/3"
-            target="_blank">Indonesian Journal of Pharmacy</a> (<a
-            href="https://www.scimagojr.com/journalsearch.php?q=21100867470&tip=sid&clean=0" target="_blank">Scopus
-            Q3</a>), <a href="https://jurnal.ugm.ac.id/ijbiotech" target="_blank">Indonesian Journal of
-            Biotechnology</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100935800&tip=sid&clean=0"
-            target="_blank">Scopus Q4</a>), and <a href="http://ajstd.org/" target="_blank">ASEAN Journal on Science and
-            Technology for Development</a> (<a href="https://sinta.ristekbrin.go.id/journals/detail?id=1623"
-            target="_blank">Sinta S1</a>).</p>
-        <a href="editorial-policy.html"><button class="btn btn-primary">Read editorial policy</button></a>
+        <p>Selected papers that has been presented will be submitted for possible inclusion to journals/proceedings that
+          are indexed by Scopus/Clarivate Analytics/DOAJ: <a
+            href="https://www.bio-conferences.org/about-the-journal/indexed-in" target="_blank">BIO Web of
+            Conferences</a> (Scopus), <a href="https://www.e-mjm.org/about_MJM.html" target="_blank">Medical Journal of
+            Malaysia</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=17838&tip=sid&clean=0"
+            target="_blank">Regular issue, Scopus Q3</a>), <a href="https://medic.upm.edu.my/jurnal_kami-3046"
+            target="_blank">Malaysian Journal of Medicine & Health Sciences</a> (<a
+            href="https://www.scimagojr.com/journalsearch.php?q=11300153737&tip=sid&clean=0"
+            target="_blank">Supplementary issue, Scopus Q4</a>), <a href="https://jurnal.ugm.ac.id/ijbiotech"
+            target="_blank">Indonesian Journal of Biotechnology</a> (<a
+            href="https://www.scimagojr.com/journalsearch.php?q=21100935800&tip=sid&clean=0" target="_blank">Scopus
+            Q4</a>), <a href="https://journal.ugm.ac.id/jtbb" target="_blank">Journal of Tropical Biodiversity and
+            Biotechnology</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21101039846&tip=sid&clean=0"
+            target="_blank">Scopus Q4</a>), <a href="https://jurnal.ugm.ac.id/v3/IJP/1#7" target="_blank">Indonesian
+            Journal of Pharmacy</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100867470&tip=sid&clean=0"
+            target="_blank">Scopus Q3</a>), <a
+            href="https://inabj.org/index.php/ibj/about/editorialPolicies#focusAndScope" target="_blank">Indonesian
+            Biomedical Journal</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100843245&tip=sid&exact=no"
+            target="_blank">Scopus Q3</a>), <a href="https://jurnal.ugm.ac.id/TradMedJ/" target="_blank">Traditional
+            Medicine Journal</a> (Scopus).</p>
 
         <!-- COMMITTEE -->
-        <h2 class="pt-3" id="committees">Committees</h2>
+        <h2 class="pt-3" id="committee">Committees</h2>
         <h4 class="pt-3" id="advisor">Advisory boards</h4>
-        <p>Univ.Prof. Dietmar Haltrich* (<em>University of Natural Resources and Life Science, Vienna</em>)<br>
-          Prof. Montarop Yamabhai* (<em>Suranaree University of Technology, Thailand</em>)<br>
-          drg. Ika Dewi Ana, Ph.D. (<em>Universitas Gadjah Mada, Indonesia</em>)<br>
-          Prof. Widodo (<em>Universitas Gadjah Mada, Indonesia</em>)<br>
-          Dr. I Wayan Mustika (<em>Universitas Gadjah Mada, Indonesia</em>)</p>
-        <p>*in confirmation.</p>
+        <p>Prof. dr. Ova Emilia, M.Med.ED, Ph.D, SpOG(K) (<i style="color: gray;">Universitas Gadjah Mada,
+            Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=6504322013" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a><br>
+          Prof. drg. Diatri Nari Ratih, M.Kes., Ph.D., Sp.KG(K) (<i style="color: gray;">Universitas Gadjah Mada,
+            Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=15056766900" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a><br>
+          Assoc.Prof. Dr. Ardiyansyah bin Syahrom (<i style="color: gray;">University of Technology Malaysia,
+            Malaysia</i>)
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=36454234600" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a><br>
+          Dr. apt. Hilda Ismail, M.Si. (<i style="color: gray;">Universitas Gadjah Mada,
+            Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=57189583423" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a><br>
+          Prof. Min-Huei Hsu (<i style="color: gray;">Taipei Medical University, Taiwan</i>) <a
+            href="https://www.scopus.com/authid/detail.uri?authorId=8302089500" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a>
+        </p>
 
-        <h2 class="pt-3" id="organizing">Organizing committee</h2>
-        <p><b>Chair:</b> dr. Gunadi, Ph.D., Sp.BA.<br>
-          <b>Co-chair:</b> Dr. Muthi' Ikawati, Apt.<br>
-          <b>Secretary:</b><br>
-          Ratih Fitria Putri, Ph.D.<br>
-          Muhammad Rafieiy, S.Si.
+        <h4 class="pt-3" id="scientific">Scientific committee</h4>
+        <p><b>Big Data for Public Health Policy symposium:</b><br>
+          Dr. dr. Guardian Yoki Sanjaya, M.Hlth.Info (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
+            href="https://www.scopus.com/authid/detail.uri?authorId=55536508300" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a></p>
+        <p><b>Bioinformatics and Data Mining symposium:</b><br>
+          Prof. dr. Gunadi, Ph.D, Sp.BA., Subsp.DA(K) (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=24337866800" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a>
         </p>
-        <h6>Big Data for Public Health Policy symposium</h6>
-        <p>
-          <b>Coordinator:</b> dr. Firdaus Hafidz As Shidieq, AAK, Ph.D.<br>
-          <b>Members:</b><br>
-          dr. Guardian Yoki Sanjaya, M.HlthInfo.<br>
-          Dr. Susi Ari Kristina, Apt.<br>
-          drg. Rosa Amalia, Ph.D.<br>
-          drg. Fitrina Rachmadanty<br>
-          Kurnia Yuliandari, Ns., M.Sc.
+        <p><b>Biomedical Sciences and Engineering symposium:</b><br>
+          Dr. Riris Istighfari Jenie, S.Farm., M.Si., Apt. (<i style="color: gray;">Universitas Gadjah Mada,
+            Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=55887656800" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a><br>
+          dr. Junaedy Yunus, M.Sc., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
+            href="https://www.scopus.com/authid/detail.uri?authorId=57211246755" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a></p>
+        <p><b>Biomolecular and Biotechnology symposium:</b><br>
+          Dr. Fajar Sofyantoro, S.Si., M.Sc. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
+            href="https://www.scopus.com/authid/detail.uri?authorId=57200339492" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a></p>
+        <p><b>Drug Development and Nutraceutical symposium:</b><br>
+          Dr. Muthi' Ikawati, M.Sc., Apt. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
+            href="https://www.scopus.com/authid/detail.uri?authorId=55189878500" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a><br>
+          Tony Arjuna, S.Gz., M.Nut.Diet, Ph.D., AN, APD. (<i style="color: gray;">Universitas Gadjah Mada,
+            Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=57197749391" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a></p>
+        <h4 class="pt-3" id="organizing">Organizing committee</h4>
+        <p><b>Chair:</b><br>
+          Prof. Dr. apt. Susi Ari Kristina, S.Farm., M.Kes. (<i style="color: gray;">Universitas Gadjah Mada,
+            Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=56626120200" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a>
         </p>
-        <h6>Bioinformatics and Data Mining symposium</h6>
-        <p><b>Coordinator:</b> Afiahayati, Ph.D.<br>
-          <b>Members:</b><br>
-          Diyah Utami KP, M.Sc., M.Cs.<br>
-          Dzikri Fudholi, M.Comp.
+        <p><b>Co-chair:</b><br>
+          dr. Dwi Aris Agung Nugrahaningsih, M.Sc., Ph.D. (<i style="color: gray;">Universitas Gadjah Mada,
+            Indonesia</i>) <a href="https://www.scopus.com/authid/detail.uri?authorId=57199681519" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a>
         </p>
-        <h6>Biomedical Sciences and Engineering symposium</h6>
-        <p>
-          <b>Coordinators:</b><br>
-          dr. Junaedy Yunus, Ph.D.<br>
-          Rini Dharmastiti, Ph.D.<br>
-          <b>Members:</b><br>
-          dr. Dwi Aris Agung Nugrahaningsih, Ph.D.<br>
-          drg. Heni Susilowati, Ph.D.<br>
-          Dr. drg. Siti Sunarintyas<br>
-          drg. Heribertus Dedy Kusuma Yulianto, Ph.D.<br>
-          dr. Dyah Listyarifah, M.Sc.<br>
-          Abrory Agus Cahya Pramana, S.Si., M.Sc.
+        <p><b>Secretary:</b><br>
+          Ratih Fitria Putri, Ph.D. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>) <a
+            href="https://www.scopus.com/authid/detail.uri?authorId=55574444300" target="_blank"><img
+              src="../images/publication/scopus.svg" height="12.5px"></a><br>
+          Muhammad Rafieiy, S.Si. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)
         </p>
-        <h6>Biomolecular and Biotechnology symposium</h6>
-        <p>
-          <b>Coordinator:</b> Dr. Dini Wahyu Kartika Sari<br>
-          <b>Members:</b><br>
-          Lisna Hidayati, M.Biotech.<br>
-          Dr. Yekti Asih Purwestri<br>
-          Dr. Tri Rini Nuringtyas
-        </p>
-        <h6>Drug Development and Nutraceutical symposium</h6>
-        <p>
-          <b>Coordinator:</b> Apt. Puguh Indrasetiawan, Ph.D.<br>
-          <b>Members:</b><br>
-          Dr. Riris Istighfari Jenie, Apt.<br>
-          Dr. Muthi' Ikawati, Apt.<br>
-          Dr. Eng. Khadijah, Apt.<br>
-          Eka Noviana, M.S., Apt., Ph.D.<br>
-          Apt. Setyowati Triastuti Utami, Ph.D.<br>
-          Tony Arjuna, Ph.D., AN, APD
-        </p>
-        <h6>Local program committee</h6>
-        <p>Siti Uswatun Hasanah, S.T.P.<br>
-          Suharman, S.E., M.M.<br>
-          Alif Yuni Alfiani, S.Kom.<br>
-          Roudlotun Nafingah, S.T.P.<br>
-          Khusnun Fauziyyah, S.P.<br>
-          Wildan Ainurrahman, S.T.P.
+        <h4 class="pt-3" id="program">Program committee</h4>
+        <p>Probo Bhaskoro, S.IP. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)<br>
+          Suharman, S.E., M.M. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)<br>
+          Alif Yuni Alfiani, S.Kom. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)<br>
+          Fatimah Salsabila Azzahra, S.S. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)<br>
+          Khusnun Fauziyyah, S.P. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)<br>
+          Fatimah Salsabila Azzahra, S.S. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)<br>
+          Satrio Budiman (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)<br>
+          Farah Geniasty Safiera (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)<br>
+          Dyas Selvika Julianisa, S.T.P. (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)<br>
+          Amanda Irbah (<i style="color: gray;">Universitas Gadjah Mada, Indonesia</i>)
         </p>
       </div>
     </div>
@@ -245,18 +331,14 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer pb-2" style="background-color: #f4fcf7; box-shadow: 0 1px 2px 0 #e1e5ea;">
+  <footer class="footer pb-2" style="background-color: #eeedf2; box-shadow: 0 1px 2px 0 #e1e5ea;">
     <div class="container">
       <!-- Sponsors -->
       <div class="text-center pt-3">
         <img src="../images/logos/ugm.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <img src="../images/publication/bio.svg" class="px-3 my-2" style="filter: grayscale();" height="30px">
-        <img src="../images/publication/clarivate-analytics.svg" class="px-3 my-2" style="filter: grayscale();"
-          height="40px">
-        <img src="../images/publication/mjmhs.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <img src="../images/publication/ijbiotech.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <img src="../images/publication/ijp.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
+        <img src="../images/publication/bio.svg" class="px-3 my-2" style="filter: grayscale();" height="35px">
         <img src="../images/publication/scopus.svg" class="px-3 my-2" style="filter: grayscale();" height="30px">
+        <img src="../images/publication/clarivate.svg" class="px-3 my-2" style="filter: grayscale();" height="25px">
       </div>
       <hr class="mx-auto my-3" style="border-color: #ccc;">
 
@@ -267,21 +349,20 @@
           <p>
             <a href="about.html">About</a><br>
             <a href="../index.html#important-dates">Important dates</a><br>
-            <a href="speakers.html">Speakers</a><br>
-            <a href="about.html#advisor">Committees</a><br>
+            <a href="#advisor">Committees</a><br>
             <a href="fee.html">Fee</a><br>
-            <a href="program.html">Program</a><br>
-            <a href="https://biomicugm.tawk.help/">Help</a>
+            <a href="speakers.html">Speakers</a><br>
+            <a href="gallery.html">Gallery</a><br>
           </p>
         </div>
         <div class="col-md-3">
-          <h6 style="color: #ff9800">Satellite events</h6>
+          <h6 style="color: #ff9800">Events</h6>
           <p>
-            <a href="big-data-for-public-health-policy.html">BDPHP symposium</a><br>
-            <a href="bioinformatics-and-data-mining.html">BDM symposium</a><br>
-            <a href="biomedical-sciences-and-engineering.html">BSE symposium</a><br>
-            <a href="biomolecular-and-biotechnology.html">BB symposium</a><br>
-            <a href="drug-development-and-nutraceutical.html">DDN symposium</a>
+            <a href="big-data-for-public-health-policy.html">BDPHP Symposium</a><br>
+            <a href="bioinformatics-and-data-mining.html">BDM Symposium</a><br>
+            <a href="biomedical-sciences-and-engineering.html">BSE Symposium</a><br>
+            <a href="biomolecular-and-biotechnology.html">BB Symposium</a><br>
+            <a href="drug-development-and-nutraceutical.html">DDN Symposium</a>
           </p>
         </div>
         <div class="col-md-3">
@@ -290,12 +371,13 @@
             <a href="author-guidelines.html">Author guidelines</a><br>
             <a href="editorial-policy.html">Editorial policy</a><br>
             <a href="submission.html">Submission</a><br>
-            <a href="presentation.html">Presentation</a><br>
+            <a href="program.html">Program</a>
           </p>
           <h6 style="color: #ff9800">Explore</h6>
           <p>
-            <a href="https://ugm.ac.id/en" target="_blank">Universitas Gadjah Mada</a><br>
-            <a href="https://visitingjogja.jogjaprov.go.id/" target="_blank">City of Yogyakarta</a>
+            <a href="https://biomic.ugm.ac.id/previous" target="_blank">Previous conference</a><br>
+            <a href="venue.html">Conference venue</a><br>
+            <a href="https://ugm.ac.id/en" target="_blank">Universitas Gadjah Mada</a>
           </p>
         </div>
         <div class="col-md-3">
@@ -307,14 +389,12 @@
               target="_blank">biomicugm</a><br>
             <i class="fa-brands fa-square-instagram"></i> <a href="https://www.instagram.com/biomicugm"
               target="_blank">biomicugm</a><br>
-            <i class="fa-brands fa-square-twitter"></i> <a href="https://www.twitter.com/bpp_ugm"
-              target="_blank">BPP_UGM</a><br>
-            <i class="fa-brands fa-square-instagram"></i> <a href="https://www.instagram.com/publikasiugm"
-              target="_blank">publikasiugm</a>
+            <i class="fa-brands fa-square-instagram"></i> <a href="https://www.instagram.com/ugmyogyakarta"
+              target="_blank">UGMYogyakarta</a>
           </p>
           <p>
-            <a href="https://biomicugm.tawk.help/" target="_blank" class="btn btn-primary"><i
-                  class="fa-solid fa-headset"></i>&nbsp;&nbsp;BioMIC UGM Helpdesk</a>
+            <a href="https://wa.me/628112576950" target="_blank"><button type="button" class="btn btn-primary"><i
+                  class="fa-solid fa-headset"></i>&nbsp;&nbsp;BioMIC UGM Helpdesk</button></a>
           </p>
         </div>
       </div>
@@ -322,27 +402,29 @@
       <hr class="mx-auto my-3" style="border-color: #ccc;">
 
       <!-- Credits -->
-      <p class="credit text-muted text-justify">The International Conference on Bioinformatics, Biotechnology, and
-        Biomedical Engineering 2021,
-        organized by <a target="_blank" href="https://publikasi.ugm.ac.id/en/">BPP UGM</a>.
-        Website has been redeveloped by <a target="_blank" href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> using
-        <a target="_blank" href="https://getbootstrap.com/docs/5.3">Bootstrap v5.3.0-alpha3</a>,
-        and licenced as <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
-          4.0</a>,
-        <a target="_blank" href="https://github.com/bppugm/biomic-2021">unless otherwise stated</a>.
-        UGM, BioMIC, Indonesian Journal of Pharmacy, and Indonesian Journal of Biotechnology logos © Universitas Gadjah
-        Mada. BIO Web of Conferences logo © EDP Sciences. Clarivate Analytics logo © Clarivate Analytics. Medical
-        Journal of Malaysia logo © Malaysian Medical Association. Malaysian Journal of Medicine & Health Sciences ©
-        Universiti Putra Malaysia. Indonesian Biomedical Journal © Prodia Education and Research Institute. ASEAN
-        Journal on Science and Technology for Development © ASEAN Committee on Science and Technology (COST). Scopus
-        logo © Elsevier B.V.
-        Jumbotron image by <a href="https://www.freepik.com/free-vector/molecules-seamless-pattern-science-microbiology-concept-chemistry-atom-structure-biology-texture-molecular_10701109.htm"
-          target="_blank">macrovector</a> (Modified; <a href="https://www.freepikcompany.com/privacy#priv-rights"
-          target="_blank">Free to use</a>).
-        Icons by <a target="_blank" href="https://fontawesome.com/docs/changelog/">Font Awesome 6.4.0</a>
+      <p class="credit text-muted" style="text-align: justify;">The International Conference on Bioinformatics,
+        Biotechnology, and Biomedical Engineering 2023, organized by <a target="_blank"
+          href="https://publikasi.ugm.ac.id/en/">BPP UGM</a>. Website has been developed by <a target="_blank"
+          href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> with
+        contribution by Ma'ruf, and it has been redeveloped by <a target="_blank"
+          href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> using
+        <a target="_blank" href="https://getbootstrap.com/docs/5.3">Bootstrap v5.3.3</a>, and licenced as <a
+          rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, <a
+          target="_blank" href="https://github.com/bppugm/icosia-2024">unless otherwise stated</a>. UGM, BioMIC,
+        Indonesian Journal of Pharmacy, and Indonesian Journal of Biotechnology logos © Universitas Gadjah Mada. BIO Web
+        of Conferences logo © EDP Sciences. Clarivate Analytics logo © Clarivate Analytics. Medical Journal of Malaysia
+        logo © Malaysian Medical Association. Malaysian Journal of Medicine & Health Sciences © Universiti Putra
+        Malaysia. Indonesian Biomedical Journal © Prodia Education and Research Institute. ASEAN Journal on Science and
+        Technology for Development © ASEAN Committee on Science and Technology (COST). Scopus logo © Elsevier B.V.
+        Jumbotron image by <a
+          href="https://www.freepik.com/free-vector/vector-abstract-colorful-graph-big-data-information-connection-visualization-social-network-financial-analysis-complex-databases-visual-information-complexity-clarification-intricate-data-cloud_23437747.htm"
+          target="_blank">GarryKillian</a> (Modified; <a href="https://www.freepikcompany.com/privacy#priv-rights"
+          target="_blank">Free to use</a>). Icons by <a target="_blank"
+          href="https://fontawesome.com/docs/changelog/">Font Awesome 6.4.0</a>
         (Fonticons Inc. <a target="_blank" href="https://fontawesome.com/license"><i
             class="fab fa-creative-commons-pd-alt"></i></a>).
-        Website © 2023 <a target="_blank" href="https://publikasi.ugm.ac.id/en/">Badan Penerbit dan Publikasi UGM</a>.
+        Website © 2023&ndash;2025 <a target="_blank" href="https://penelitian.ugm.ac.id/en/">UGM's Research
+          Directorate</a>.
       </p>
     </div>
   </footer>
