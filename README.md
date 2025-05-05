@@ -1,8 +1,8 @@
-<a href="http://biomic.ugm.ac.id"><img src="https://github.com/bppugm/biomic-2021/blob/main/images/logos/logo.svg" height="142px" align="right"></a>
+<a href="http://biomic.ugm.ac.id"><img src="https://github.com/bppugm/biomic-2023/blob/main/images/logos/logo.svg" height="142px" align="right"></a>
 
 # Website for the BioMIC UGM 2023
 
-This is the copy of website for The 5<sup>th</sup> International Conference on Bioinformatics, Biotechnology, and Biomedical Engineering (BioMIC 2023), hosted by Universitas Gadjah Mada on 6–7 October 2023.
+This is the copy of website for The 5<sup>th</sup> International Conference on Bioinformatics, Biotechnology, and Biomedical Engineering (BioMIC 2023), hosted by Universitas Gadjah Mada on 6–7 September 2023.
 
 ## Credits
 
@@ -12,7 +12,7 @@ This is the copy of website for The 5<sup>th</sup> International Conference on B
 ### Development
 
 + Built using Visual Studio Code
-+ HTML, CSS, Javascript Library by [Bootstrap v5.3.0-alpha3](https://getbootstrap.com/docs/5.3)
++ HTML, CSS, Javascript Library by [Bootstrap v5.3.3](https://getbootstrap.com/docs/5.3)
 + Some contents based on [ICST 2017 Website](https://github.com/jaybaeta/icst-2017) © [Joaquim Baeta](https://github.com/jaybaeta/), under the [MIT License](https://github.com/jaybaeta/icst-2017/blob/master/LICENSE.md)
 
 ### Icons
@@ -24,12 +24,12 @@ This is the copy of website for The 5<sup>th</sup> International Conference on B
 + [RealFaviconGenerator](http://realfavicongenerator.net/) by [@realfavicongenerator](https://github.com/realfavicongenerator)
 
 ### Jumbotron
-+ Background is by GarryKillian via [Freepik](https://www.freepik.com/free-vector/vector-abstract-colorful-graph-big-data-information-connection-visualization-social-network-financial-analysis-complex-databases-visual-information-complexity-clarification-intricate-data-cloud_23437747.htm); modified to remove the text ([Free to use](https://www.freepikcompany.com/privacy#priv-rights)).
++ Background is by GarryKillian via [Freepik](https://www.freepik.com/free-vector/vector-abstract-colorful-graph-big-data-information-connection-visualization-social-network-financial-analysis-complex-databases-visual-information-complexity-clarification-intricate-data-cloud_23437747.htm); modified to remove the text ([Free to use](https://www.freepik.com/legal/terms-of-use#nav-freepik-license)).
 
 ### Symposia images
 All symposia images are free to use via Unsplash and Pexels.
 + Big Data for Public Health Policy symposium by [Nataliya Vaitkevich](https://www.pexels.com/photo/vaccination-document-and-a-smartphone-8830662/); [Free to use](https://www.pexels.com/license/).
-+ Bioinformatics and Data Mining symposium by [Chris Liverani](https://unsplash.com/photos/dBI_My696Rk); [Free to use](https://www.pexels.com/license/).
++ Bioinformatics and Data Mining symposium by [Chris Liverani](https://unsplash.com/photos/dBI_My696Rk); [Free to use](https://unsplash.com/license).
 + Biomedical Sciences and Engineering symposium by [Jesse orrico](https://unsplash.com/photos/rmWtVQN5RzU); [Free to use](https://unsplash.com/license)).
 + Biomolecular and Biotechnology symposium by [National Cancer Institute](https://unsplash.com/photos/p1zy6izFI0M); [Free to use](https://unsplash.com/license).
 + Drug Development and Nutraceutical symposium by [Nataliya Vaitkevich](https://www.pexels.com/photo/flat-lay-photo-of-alternative-medicines-7615460/); [Free to use](https://www.pexels.com/license/).
