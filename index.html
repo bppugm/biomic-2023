@@ -19,8 +19,8 @@
   <link href="stylesheets/custom.css" rel="stylesheet" />
 
   <!-- JAVASCRIPT -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="javascripts/bootstrap.js"></script>
+  <script src="javascripts/bootstrap.bundle.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
   <script src="javascripts/gtag.js"></script>
@@ -74,15 +74,52 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item"><a class="nav-link" href="article/about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="article/satellite-events.html">Satellite events</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="article/about.html">About BioMIC 2023</a></li>
+                  <li><a class="dropdown-item" href="#important-dates">Important dates</a></li>
+                  <li><a class="dropdown-item" href="article/about.html#committee">Committees</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="https://biomic.ugm.ac.id/previous">Previous conferences</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Satellite events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="article/satellite-events.html">All events</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="article/big-data-for-public-health-policy.html">BDPHP Symposium</a></li>
+                  <li><a class="dropdown-item" href="article/bioinformatics-and-data-mining.html">BDM Symposium</a></li>
+                  <li><a class="dropdown-item" href="article/biomedical-sciences-and-engineering.html">BSE Symposium</a></li>
+                  <li><a class="dropdown-item" href="article/biomolecular-and-biotechnology.html">BB Symposium</a></li>
+                  <li><a class="dropdown-item" href="article/drug-development-and-nutraceutical.html">DDN Symposium</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="article/speakers.html">Speakers</a></li>
-              <li class="nav-item"><a class="nav-link" href="article/author-guidelines.html">Author</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Author
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="article/author-guidelines.html">Author guidelines</a></li>
+                  <li><a class="dropdown-item" href="article/editorial-policy.html">Editorial policy</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="article/submission.html">Submission</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="article/fee.html">Fee</a></li>
               <li class="nav-item"><a class="nav-link" href="article/venue.html">Venue</a></li>
               <li class="nav-item"><a class="nav-link" href="article/program.html">Program</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://fb.me/biomicugm">News</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://biomicugm.tawk.help/">Help</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="https://fb.me/biomicugm">News</a></li> -->
+              <!-- <li class="nav-item"><a class="nav-link" href="https://biomicugm.tawk.help/">Help</a></li> -->
             </ul>
           </div>
         </div>
@@ -120,7 +157,7 @@
         <p>BioMIC 2023 receives manuscripts of <b>original research</b>, <b>review articles</b>, and <b>case report</b>.
         </p>
         <p>Selected papers that has been presented <strong>will be submitted for possible inclusion to</strong> journals/proceedings that are indexed by Scopus/Clarivate Analytics/DOAJ: 
-          <a href="https://www.bio-conferences.org/about-the-journal/indexed-in" target="_blank">BIO Web of Confernces</a> (Scopus), 
+          <a href="https://www.bio-conferences.org/about-the-journal/indexed-in" target="_blank">BIO Web of Conferences</a> (Scopus), 
           <a href="http://www.e-mjm.org/about_MJM.html" target="_blank">Medical Journal of Malaysia</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=17838&tip=sid&clean=0" target="_blank"> Scopus Q3</a>), 
           <a href="https://medic.upm.edu.my/jurnal_kami-3046" target="_blank">Malaysian Journal of Medicine & Health Sciences</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=11300153737&tip=sid&clean=0" target="_blank">Special issue, Scopus Q4</a>), 
           <a href="https://jurnal.ugm.ac.id/ijbiotech" target="_blank">Indonesian Journal of Biotechnology</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100935800&tip=sid&clean=0" target="_blank">Scopus Q4</a>), 
@@ -278,10 +315,10 @@
 
       <!-- Credits -->
       <p class="credit text-muted text-justify">The International Conference on Bioinformatics, Biotechnology, and
-        Biomedical Engineering 2021,
+        Biomedical Engineering 2023,
         organized by <a target="_blank" href="https://publikasi.ugm.ac.id/en/">BPP UGM</a>.
         Website has been redeveloped by <a target="_blank" href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> using
-        <a target="_blank" href="https://getbootstrap.com/docs/5.3">Bootstrap v5.3.0-alpha3</a>,
+        <a target="_blank" href="https://getbootstrap.com/docs/5.3">Bootstrap v5.3.3</a>,
         and licenced as <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
           4.0</a>,
         <a target="_blank" href="https://github.com/bppugm/biomic-2021">unless otherwise stated</a>.
@@ -295,7 +332,7 @@
         Icons by <a target="_blank" href="https://fontawesome.com/docs/changelog/">Font Awesome 6.4.0</a>
         (Fonticons Inc. <a target="_blank" href="https://fontawesome.com/license"><i
             class="fab fa-creative-commons-pd-alt"></i></a>).
-        Website © 2023 <a target="_blank" href="https://publikasi.ugm.ac.id/en/">Badan Penerbit dan Publikasi UGM</a>.
+        Website © 2023&ndash;2025 <a target="_blank" href="https://publikasi.ugm.ac.id/en/">Badan Penerbit dan Publikasi UGM</a>.
       </p>
     </div>
   </footer>
