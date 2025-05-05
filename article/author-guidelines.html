@@ -7,7 +7,7 @@
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
     name="viewport">
 
-  <title>Author guidelines - BioMIC 2021</title>
+  <title>Author guidelines - BioMIC UGM 2023</title>
 
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700" rel="stylesheet">
@@ -19,11 +19,17 @@
   <link href="../stylesheets/custom.css" rel="stylesheet" />
 
   <!-- JAVASCRIPT -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="../javascripts/bootstrap.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
-  <script src="../javascripts/gtag.js"></script>
+  <script src="../javascripts/bootstrap.bundle.js"></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RE2REFGTQR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RE2REFGTQR');
+</script>
 
 
   <!-- FAVICON -->
@@ -39,12 +45,12 @@
 
 <body class="index">
 
-  <header style="background-color: #f8f7fd; box-shadow: 0 1px 2px 0 #e1e5ea;">
+  <header style="background-color: #eeedf2; box-shadow: 0 1px 2px 0 #e1e5ea;">
     <!-- NAVBAR -->
     <nav class="navbar bg-primary pt-1">
       <div class="container">
         <a class="navbar-brand"><span class="nav me-auto pt-1" style="color: #fff; font-size: 9pt">Yogyakarta,
-            Indonesia. 6–7 October 2021</span></a>
+            Indonesia. 6–7 September 2023</span></a>
         <ul class="nav">
           <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
               href="https://twitter.com/biomicugm" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
@@ -60,7 +66,7 @@
     </nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand"><img src="../images/logos/logo.svg" width="100px"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../images/logos/logo.svg" width="80px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
           aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -68,21 +74,70 @@
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
           aria-labelledby="offcanvasNavbar2Label">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC 2021</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC UGM 2023</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
               aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="satellite-events.html">Satellite events</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About BioMIC 2023</a></li>
+                  <li><a class="dropdown-item" href="../index.html#important-dates">Important dates</a></li>
+                  <li><a class="dropdown-item" href="about.html#committee">Committees</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="https://biomic.ugm.ac.id/previous">Previous conferences</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="satellite-events.html">All event</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="big-data-for-public-health-policy.html">BDPHP Symposium</a></li>
+                  <li><a class="dropdown-item" href="bioinformatics-and-data-mining.html">BDM Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomedical-sciences-and-engineering.html">BSE Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomolecular-and-biotechnology.html">BB Symposium</a></li>
+                  <li><a class="dropdown-item" href="drug-development-and-nutraceutical.html">DDN Symposium</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="speakers.html">Speakers</a></li>
-              <li class="nav-item"><a class="nav-link active" href="author-guidelines.html">Author</a></li>
-              <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Author
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="author-guidelines.html">Author guidelines</a></li>
+                  <li><a class="dropdown-item" href="editorial-policy.html">Editorial policy</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="submission.html">Submission</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item"
+                      href="https://www.bio-conferences.org/articles/bioconf/abs/2023/20/contents/contents.html"
+                      target="_blank">Publication</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
-              <li class="nav-item"><a class="nav-link" href="presentation.html">Presentation</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://biomicugm.tawk.help/">Help</a></li>
+              <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
+              <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
+              <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
             </ul>
           </div>
         </div>
@@ -91,78 +146,97 @@
     </nav>
   </header>
 
+  <!-- CONTENTS -->
   <h1>Author <span style="color: #ff9800;">guidelines</span></h1>
 
-  <section>
-    <div class="container pb-5">
-          <h2>Preparing your manuscript</h2>
-
+  <section class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="container pb-5">
+          <h5>Preparing your manuscript</h5>
           <ol type="1">
-            <li>The manuscript topic should conform to the scope of the conference/symposium.</li>
-            <li>The submitted manuscript must be original work and should not have been previously published or presented at another meeting.</li>
-            <li>The manuscript should be written in English (US), with font type Arial (for paper title and headings) and Times, Times Roman, or Times New Roman (for all contents, included figures and tables).</li>
-            <li>The abstract should be no more than 200 words (excluding abstract title, authors, and affiliations), with two-column of A4 Paper size in <code>PDF</code> or <code>DOC</code> format.</li>
-            <li>The template modified in Ms Word 2010 or earlier and saved as a “Word Document” for the PC, provides authors with most of the formatting specifications needed for preparing electronic versions of their papers. Margins, column widths, line spacing, and font sizes are built-in.</li>
-            <ul>
-              <li>Font sizes. Title (16 pt); Heading 1 (12 pt); Author name, Heading 2, heading 3, and content (10 pt); Author details, abstract, figures, and tables (9 pt).</li>
+            <li>The manuscript topic should conform to the scope of the conference/symposium and publisher.</li>
+              <li>The submitted manuscript must be original work and should not have been previously published or presented at another meeting (similarity score no more than 25%). You can use Similarity Checker form Editor pane of Microsoft Word to check it with online sources.</li>
+              <li>The manuscript should be written in English (US), with font type Arial (for paper title and headings) and Times, Times Roman, or Times New Roman (for all contents, included figures and tables).</li>
+              <li>The manuscript should be written with a minimum of 4 pages with no maximum limit on paper page counts.</li>
+              <li>The abstract should be no more than 200 words (excluding abstract title, authors, and affiliations), with two-column of <code>A4 Paper</code> size in <code>PDF</code> format.</li>
+              <li>The template modified in Ms Word 2010 or earlier and saved as a “Word Document” for the PC, provides authors with most of the formatting specifications needed for preparing electronic versions of their papers. Margins, column widths, line spacing, and font sizes are built in.</li>
+              <ul>
+                <li>Font sizes. Title (16 pt); Heading 1 (12 pt); Author name, Heading 2, Heading 3, and Content (10 pt); Author details, Abstract, Figures, and Tables (9 pt).</li>
               <li>Margins. Top (25 mm); Left (20 mm); Bottom (20 mm); Right (20 mm).</li>
               <li>The text should be set to single line spacing.</li>
               <li>Paragraphs should be justified. The first paragraph after a section or subsection should not be indented; subsequent paragraphs should be indented by 5 mm.</li>
-              <li>If your manuscript in the <code>PDF</code> format, please ensure that all fonts are embedded, not as encrypted/secured file, and has no headers, footers, bookmarks, form fields, links, or annotation.</li>
-            </ul>
-            <li>Make sure the listed artworks have the best resolution for printing (300 DPI).</li>
-            <li>For both primary and co-authors, credentials along with their full names and email addresses must be included. If co-authors are from different institutions, the secondary institution(s) and the institution investigators are associate with must be listed.</li>
-            <li>The guideline details for this symposium can be read in the paper template.</li>
+              <li>Please ensure that all fonts are embedded, not as encrypted/secured file, and has no headers, footers, bookmarks, form fields, links, or annotation.</li>
+              </ul>
+              <li>Make sure the listed artworks have the best resolution for printing (300 DPI).</li>
+              <li>For both primary and co-authors, credentials along with their full names and email addresses must be included. If co-authors are from different institutions, the secondary institution(s) and the institution investigators are associated with must be listed. Please do not reverse the name order except it is instructed by publisher. Affiliations and author names cannot contain professional titles, e.g., "Professor" "Graduate Student Researcher", "HOD", etc.</li></li>
           </ol>
 
       <hr>
-      <h2>Publication</h2>
+      <h5>Publication</h5>
       <p>Authors are invited to electronically submit both of their full papers in English to the EDAS system. The
         submitted papers will be peer-reviewed based on relevance and timeliness, technical content and scientific rigor, novelty
-        and originality, and their quality of presentation. The accepted and presented papers <b>will be submitted to</b> proceedings <a
-        href="https://www.bio-conferences.org/about-the-journal/indexed-in" target="_blank">BIO Web of Conferences
-        (CPCI)</a>. <b>Selected papers</b> will be submitted to <a href="http://www.e-mjm.org/about_MJM.html"
-        target="_blank">Medical Journal of Malaysia</a> (<a
-        href="https://www.scimagojr.com/journalsearch.php?q=17838&tip=sid&clean=0" target="_blank">Special issue,
-        Scopus Q3</a>), <a href="https://medic.upm.edu.my/jurnal_kami-3046" target="_blank">Malaysian Journal of
-        Medicine & Health Sciences</a> (<a
-        href="https://www.scimagojr.com/journalsearch.php?q=11300153737&tip=sid&clean=0" target="_blank">Special
-        issue, Scopus Q4</a>), <a href="https://inabj.org/index.php/ibj" target="_blank">Indonesian Biomedical
-        Journal</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100843245&tip=sid&clean=0"
-        target="_blank">Scopus Q4</a>), <a href="http://indonesianjpharm.farmasi.ugm.ac.id/index.php/3"
-        target="_blank">Indonesian Journal of Pharmacy</a> (<a
-        href="https://www.scimagojr.com/journalsearch.php?q=21100867470&tip=sid&clean=0" target="_blank">Scopus
-        Q3</a>), <a href="https://jurnal.ugm.ac.id/ijbiotech" target="_blank">Indonesian Journal of
-        Biotechnology</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100935800&tip=sid&clean=0"
-        target="_blank">Scopus Q4</a>), and <a href="http://ajstd.org/" target="_blank">ASEAN Journal on Science and
-        Technology for Development</a> (<a href="https://sinta.ristekbrin.go.id/journals/detail?id=1623"
-        target="_blank">Sinta S1</a>).</p>
-      <a href="editorial-policy.html" class="btn btn-primary">Read editorial policy</a>&nbsp;&nbsp;<a href="submission.html" class="btn btn-invprimary">Submit manuscript</a>
+        and originality, and their quality of presentation.</p>
+        <p>The accepted and presented papers <b>will be submitted to</b> proceedings <a
+          href="https://www.bio-conferences.org/about-the-journal/indexed-in" target="_blank">BIO Web of Conferences
+          (Scopus, CPCI)</a>. <b>Selected papers</b> will be submitted to <a href="http://www.e-mjm.org/about_MJM.html"
+          target="_blank">Medical Journal of Malaysia</a> (<a
+          href="https://www.scimagojr.com/journalsearch.php?q=17838&tip=sid&clean=0" target="_blank">Special issue,
+          Scopus Q3</a>), <a href="https://medic.upm.edu.my/jurnal_kami-3046" target="_blank">Malaysian Journal of
+          Medicine & Health Sciences</a> (<a
+          href="https://www.scimagojr.com/journalsearch.php?q=11300153737&tip=sid&clean=0" target="_blank">Special
+          issue, Scopus Q4</a>), <a href="https://inabj.org/index.php/ibj" target="_blank">Indonesian Biomedical
+          Journal</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100843245&tip=sid&clean=0"
+          target="_blank">Scopus Q4</a>), <a href="http://indonesianjpharm.farmasi.ugm.ac.id/index.php/3"
+          target="_blank">Indonesian Journal of Pharmacy</a> (<a
+          href="https://www.scimagojr.com/journalsearch.php?q=21100867470&tip=sid&clean=0" target="_blank">Scopus
+          Q3</a>), <a href="https://jurnal.ugm.ac.id/ijbiotech" target="_blank">Indonesian Journal of
+          Biotechnology</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100935800&tip=sid&clean=0"
+          target="_blank">Scopus Q4</a>), and <a href="http://ajstd.org/" target="_blank">ASEAN Journal on Science and
+          Technology for Development</a> (<a href="https://sinta.ristekbrin.go.id/journals/detail?id=1623"
+          target="_blank">Sinta S1</a>).</p>
+      <a href="editorial-policy.html" class="btn btn-primary">Read editorial policy</a>
 
       <hr>
-      <h2 class="pt-3">Templates and Related documents</h2>
+      <h5 class="pt-3">Templates and Related documents</h5>
       <a href="../downloads/BioMIC2021-paper-template.zip"
         class="btn btn-transprimary"><i class="fa-solid fa-file-zipper" style="padding-right: 5px;"></i>Paper guidelines (1.2 Mb)</a><br>
       <a href="../downloads/BioMIC2021-paper-template.docx"
         class="btn btn-transprimary"><i class="fa-solid fa-file-word" style="padding-right: 5px;"></i>Paper template (711 kb)</a><br>
+        <a href="https://www.bio-conferences.org/doc_journal/woc/publication_right_form.pdf"
+        class="btn btn-transprimary" target="_blank"><i class="fa-solid fa-file-pdf" style="padding-right: 5px;"></i>Publication right form</a><br>
       <a href="https://www.bio-conferences.org/about-the-journal/publishing-policies-ethics" class="btn btn-transprimary"><i class="fa-solid fa-globe"
           style="padding-right: 5px;"></i>Policy and ethics</a>
+    </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="alert alert-info" style="padding-bottom: 0px;">
+          <h6>Learning tips</h6>
+          <ul>
+            <li><a href="https://support.microsoft.com/en-us/office/check-your-document-for-similarity-to-online-sources-6d942360-b5ca-445f-a84d-6e8c66fc40d2" target="_blank">Check similarity with Microsoft Editor</a></li>
+            <li><a href="https://support.microsoft.com/en-us/office/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109" target="_blank">Use styles in Microsoft Word</a></li>
+            <li><a href="https://answers.microsoft.com/en-us/msoffice/forum/all/how-do-i-embed-fonts-when-converting-a-word/70ff5c56-034c-42d0-b334-e396a2ebb689" target="_blank">Embed all fonts in Microsoft Word</a></li>
+            <li><a href="http://pdf-analyser.edpsciences.org/" target="_blank">Check document's content</a></li>
+          </ul>
+        </div>
+        <div class="alert alert-success">
+          <h6>Submit your manuscript</h6>
+          <p>If your manuscript is ready to be submitted, you can go to the submission page now.</p>
+            <a href="submissions" class="btn btn-primary">Submit now</a>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer pb-2" style="background-color: #f4fcf7; box-shadow: 0 1px 2px 0 #e1e5ea;">
+  <footer class="footer pb-2" style="background-color: #eeedf2; box-shadow: 0 1px 2px 0 #e1e5ea;">
     <div class="container">
       <!-- Sponsors -->
       <div class="text-center pt-3">
         <img src="../images/logos/ugm.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <img src="../images/publication/bio.svg" class="px-3 my-2" style="filter: grayscale();" height="30px">
-        <img src="../images/publication/clarivate-analytics.svg" class="px-3 my-2" style="filter: grayscale();"
-          height="40px">
-        <img src="../images/publication/mjmhs.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <img src="../images/publication/ijbiotech.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <img src="../images/publication/ijp.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
+        <img src="../images/publication/bio.svg" class="px-3 my-2" style="filter: grayscale();" height="35px">
         <img src="../images/publication/scopus.svg" class="px-3 my-2" style="filter: grayscale();" height="30px">
+        <img src="../images/publication/clarivate.svg" class="px-3 my-2" style="filter: grayscale();" height="25px">
       </div>
       <hr class="mx-auto my-3" style="border-color: #ccc;">
 
@@ -173,21 +247,20 @@
           <p>
             <a href="about.html">About</a><br>
             <a href="../index.html#important-dates">Important dates</a><br>
-            <a href="speakers.html">Speakers</a><br>
-            <a href="about.html#advisor">Committees</a><br>
+            <a href="#advisor">Committees</a><br>
             <a href="fee.html">Fee</a><br>
-            <a href="program.html">Program</a><br>
-            <a href="https://biomicugm.tawk.help/">Help</a>
+            <a href="speakers.html">Speakers</a><br>
+            <a href="gallery.html">Gallery</a><br>
           </p>
         </div>
         <div class="col-md-3">
-          <h6 style="color: #ff9800">Satellite events</h6>
+          <h6 style="color: #ff9800">Events</h6>
           <p>
-            <a href="big-data-for-public-health-policy.html">BDPHP symposium</a><br>
-            <a href="bioinformatics-and-data-mining.html">BDM symposium</a><br>
-            <a href="biomedical-sciences-and-engineering.html">BSE symposium</a><br>
-            <a href="biomolecular-and-biotechnology.html">BB symposium</a><br>
-            <a href="drug-development-and-nutraceutical.html">DDN symposium</a>
+            <a href="big-data-for-public-health-policy.html">BDPHP Symposium</a><br>
+            <a href="bioinformatics-and-data-mining.html">BDM Symposium</a><br>
+            <a href="biomedical-sciences-and-engineering.html">BSE Symposium</a><br>
+            <a href="biomolecular-and-biotechnology.html">BB Symposium</a><br>
+            <a href="drug-development-and-nutraceutical.html">DDN Symposium</a>
           </p>
         </div>
         <div class="col-md-3">
@@ -196,12 +269,13 @@
             <a href="author-guidelines.html">Author guidelines</a><br>
             <a href="editorial-policy.html">Editorial policy</a><br>
             <a href="submission.html">Submission</a><br>
-            <a href="presentation.html">Presentation</a><br>
+            <a href="program.html">Program</a>
           </p>
           <h6 style="color: #ff9800">Explore</h6>
           <p>
-            <a href="https://ugm.ac.id/en" target="_blank">Universitas Gadjah Mada</a><br>
-            <a href="https://visitingjogja.jogjaprov.go.id/" target="_blank">City of Yogyakarta</a>
+            <a href="https://biomic.ugm.ac.id/previous" target="_blank">Previous conference</a><br>
+            <a href="venue.html">Conference venue</a><br>
+            <a href="https://ugm.ac.id/en" target="_blank">Universitas Gadjah Mada</a>
           </p>
         </div>
         <div class="col-md-3">
@@ -213,14 +287,12 @@
               target="_blank">biomicugm</a><br>
             <i class="fa-brands fa-square-instagram"></i> <a href="https://www.instagram.com/biomicugm"
               target="_blank">biomicugm</a><br>
-            <i class="fa-brands fa-square-twitter"></i> <a href="https://www.twitter.com/bpp_ugm"
-              target="_blank">BPP_UGM</a><br>
-            <i class="fa-brands fa-square-instagram"></i> <a href="https://www.instagram.com/publikasiugm"
-              target="_blank">publikasiugm</a>
+            <i class="fa-brands fa-square-instagram"></i> <a href="https://www.instagram.com/ugmyogyakarta"
+              target="_blank">UGMYogyakarta</a>
           </p>
           <p>
-            <a href="https://biomicugm.tawk.help/" target="_blank" class="btn btn-primary"><i
-                  class="fa-solid fa-headset"></i>&nbsp;&nbsp;BioMIC UGM Helpdesk</a>
+            <a href="https://wa.me/628112576950" target="_blank"><button type="button" class="btn btn-primary"><i
+                  class="fa-solid fa-headset"></i>&nbsp;&nbsp;BioMIC UGM Helpdesk</button></a>
           </p>
         </div>
       </div>
@@ -228,24 +300,29 @@
       <hr class="mx-auto my-3" style="border-color: #ccc;">
 
       <!-- Credits -->
-      <p class="credit text-muted text-justify">The International Conference on Bioinformatics, Biotechnology, and
-        Biomedical Engineering 2021,
-        organized by <a target="_blank" href="https://publikasi.ugm.ac.id/en/">BPP UGM</a>.
-        Website has been redeveloped by <a target="_blank" href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> using
-        <a target="_blank" href="https://getbootstrap.com/docs/5.3">Bootstrap v5.3.0-alpha3</a>,
-        and licenced as <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
-          4.0</a>,
-        <a target="_blank" href="https://github.com/bppugm/biomic-2021">unless otherwise stated</a>.
-        UGM, BioMIC, Indonesian Journal of Pharmacy, and Indonesian Journal of Biotechnology logos © Universitas Gadjah
-        Mada. BIO Web of Conferences logo © EDP Sciences. Clarivate Analytics logo © Clarivate Analytics. Medical
-        Journal of Malaysia logo © Malaysian Medical Association. Malaysian Journal of Medicine & Health Sciences ©
-        Universiti Putra Malaysia. Indonesian Biomedical Journal © Prodia Education and Research Institute. ASEAN
-        Journal on Science and Technology for Development © ASEAN Committee on Science and Technology (COST). Scopus
-        logo © Elsevier B.V. 
-        Icons by <a target="_blank" href="https://fontawesome.com/docs/changelog/">Font Awesome 6.4.0</a>
+      <p class="credit text-muted" style="text-align: justify;">The International Conference on Bioinformatics,
+        Biotechnology, and Biomedical Engineering 2023, organized by <a target="_blank"
+          href="https://publikasi.ugm.ac.id/en/">BPP UGM</a>. Website has been developed by <a target="_blank"
+          href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> with
+        contribution by Ma'ruf, and it has been redeveloped by <a target="_blank"
+          href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> using
+        <a target="_blank" href="https://getbootstrap.com/docs/5.3">Bootstrap v5.3.3</a>, and licenced as <a
+          rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, <a
+          target="_blank" href="https://github.com/bppugm/icosia-2024">unless otherwise stated</a>. UGM, BioMIC,
+        Indonesian Journal of Pharmacy, and Indonesian Journal of Biotechnology logos © Universitas Gadjah Mada. BIO Web
+        of Conferences logo © EDP Sciences. Clarivate Analytics logo © Clarivate Analytics. Medical Journal of Malaysia
+        logo © Malaysian Medical Association. Malaysian Journal of Medicine & Health Sciences © Universiti Putra
+        Malaysia. Indonesian Biomedical Journal © Prodia Education and Research Institute. ASEAN Journal on Science and
+        Technology for Development © ASEAN Committee on Science and Technology (COST). Scopus logo © Elsevier B.V.
+        Jumbotron image by <a
+          href="https://www.freepik.com/free-vector/vector-abstract-colorful-graph-big-data-information-connection-visualization-social-network-financial-analysis-complex-databases-visual-information-complexity-clarification-intricate-data-cloud_23437747.htm"
+          target="_blank">GarryKillian</a> (Modified; <a href="https://www.freepikcompany.com/privacy#priv-rights"
+          target="_blank">Free to use</a>). Icons by <a target="_blank"
+          href="https://fontawesome.com/docs/changelog/">Font Awesome 6.4.0</a>
         (Fonticons Inc. <a target="_blank" href="https://fontawesome.com/license"><i
             class="fab fa-creative-commons-pd-alt"></i></a>).
-        Website © 2023 <a target="_blank" href="https://publikasi.ugm.ac.id/en/">Badan Penerbit dan Publikasi UGM</a>.
+        Website © 2023&ndash;2025 <a target="_blank" href="https://penelitian.ugm.ac.id/en/">UGM's Research
+          Directorate</a>.
       </p>
     </div>
   </footer>
