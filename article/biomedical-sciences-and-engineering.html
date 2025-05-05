@@ -7,7 +7,7 @@
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
     name="viewport">
 
-  <title>Biomedical Sciences and Engineering symposium - BioMIC 2021</title>
+  <title>Biomedical Sciences and Engineering Symposium - BioMIC UGM 2023</title>
 
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700" rel="stylesheet">
@@ -19,11 +19,17 @@
   <link href="../stylesheets/custom.css" rel="stylesheet" />
 
   <!-- JAVASCRIPT -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="../javascripts/bootstrap.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
-  <script src="../javascripts/gtag.js"></script>
+  <script src="../javascripts/bootstrap.bundle.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RE2REFGTQR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-RE2REFGTQR');
+  </script>
 
 
   <!-- FAVICON -->
@@ -39,12 +45,12 @@
 
 <body class="index">
 
-  <header style="background-color: #f8f7fd; box-shadow: 0 1px 2px 0 #e1e5ea;">
+  <header style="background-color: #eeedf2; box-shadow: 0 1px 2px 0 #e1e5ea;">
     <!-- NAVBAR -->
     <nav class="navbar bg-primary pt-1">
       <div class="container">
         <a class="navbar-brand"><span class="nav me-auto pt-1" style="color: #fff; font-size: 9pt">Yogyakarta,
-            Indonesia. 6–7 October 2021</span></a>
+            Indonesia. 6–7 September 2023</span></a>
         <ul class="nav">
           <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
               href="https://twitter.com/biomicugm" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
@@ -60,7 +66,7 @@
     </nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand"><img src="../images/logos/logo.svg" width="100px"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../images/logos/logo.svg" width="80px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
           aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -68,21 +74,70 @@
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
           aria-labelledby="offcanvasNavbar2Label">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC 2021</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC UGM 2023</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
               aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link active" href="satellite-events.html">Satellite events</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About BioMIC 2023</a></li>
+                  <li><a class="dropdown-item" href="../index.html#important-dates">Important dates</a></li>
+                  <li><a class="dropdown-item" href="about.html#committee">Committees</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="https://biomic.ugm.ac.id/previous">Previous conferences</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="satellite-events.html">All event</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="big-data-for-public-health-policy.html">BDPHP Symposium</a></li>
+                  <li><a class="dropdown-item" href="bioinformatics-and-data-mining.html">BDM Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomedical-sciences-and-engineering.html">BSE Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomolecular-and-biotechnology.html">BB Symposium</a></li>
+                  <li><a class="dropdown-item" href="drug-development-and-nutraceutical.html">DDN Symposium</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="speakers.html">Speakers</a></li>
-              <li class="nav-item"><a class="nav-link" href="author-guidelines.html">Author</a></li>
-              <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Author
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="author-guidelines.html">Author guidelines</a></li>
+                  <li><a class="dropdown-item" href="editorial-policy.html">Editorial policy</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="submission.html">Submission</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item"
+                      href="https://www.bio-conferences.org/articles/bioconf/abs/2023/20/contents/contents.html"
+                      target="_blank">Publication</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
-              <li class="nav-item"><a class="nav-link" href="presentation.html">Presentation</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://biomicugm.tawk.help/">Help</a></li>
+              <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
+              <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
+              <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
             </ul>
           </div>
         </div>
@@ -95,81 +150,66 @@
   <section class="container">
     <div class="row">
       <div class="col-md-4 d-flex align-items-end flex-column py-3">
-        <img src="../images/stock/biomedical-sciences-and-engineering.jpg" class="event-img pr-5"><br class="d-none d-md-block pb-5">
-        <button class="btn btn-transprimary d-none d-md-block active">About BSE<i class="fa-solid fa-circle-chevron-right"
-            style="padding-left: 5px;"></i></button>
+        <img src="../images/stock/biomedical-sciences-and-engineering.jpg" class="event-img pr-5"><br
+          class="d-none d-md-block pb-5">
+        <button class="btn btn-transprimary d-none d-md-block active">About BSE<i
+            class="fa-solid fa-circle-chevron-right" style="padding-left: 5px;"></i></button>
         <a href="author-guidelines.html" class="d-none d-md-block btn btn-transprimary">Author guidelines<i
-              class="fa-solid fa-circle-chevron-right" style="padding-left: 5px;"></i></a>
+            class="fa-solid fa-circle-chevron-right" style="padding-left: 5px;"></i></a>
         <a href="fee.html" class="d-none d-md-block btn btn-transprimary">Participation fee<i
-              class="fa-solid fa-circle-chevron-right" style="padding-left: 5px;"></i></a>
+            class="fa-solid fa-circle-chevron-right" style="padding-left: 5px;"></i></a>
         <a href="submission.html" class="d-none d-md-block btn btn-primary">Submit manuscript<i
-              class="fa-solid fa-circle-chevron-right" style="padding-left: 5px;"></i></a>
-        <a href="presentation.html" class="d-none d-md-block btn btn-transprimary">Presentation<i
-                class="fa-solid fa-circle-chevron-right" style="padding-left: 5px;"></i></a>
+            class="fa-solid fa-circle-chevron-right" style="padding-left: 5px;"></i></a>
       </div>
       <div class="col-md-8 pt-3">
-        <a href="satellite-events.html"><button class="d-none d-md-block btn btn-trans2primary" style="margin-left:-40px;"><i
-              class="fa-solid fa-arrow-left" style="padding-right: 5px;"></i>Satellite events</button></a>
+        <a href="satellite-events.html"><button class="d-none d-md-block btn btn-trans2primary"
+            style="margin-left:-40px;"><i class="fa-solid fa-arrow-left" style="padding-right: 5px;"></i>Satellite
+            events</button></a>
         <h1 style="text-align: left;">Biomedical Sciences and Engineering <br class="d-none d-md-block"><span
             style="color: #009688;">symposium</span></h1>
         <h5>Topics</h5>
-        <p>Ageing, Cell and molecular biosciences, Cellular medicine, Clinical biochemistry, Dental sciences, Genetic medicine, Genomics, Hematology, Health and society, Immunology, Microbiology, Neuroscience and cancer, and Toxicology.</p>
-        
+        <p>Ageing, Cell and molecular biosciences, Cellular medicine, Clinical biochemistry, Dental sciences, Genetic
+          medicine, Genomics, Hematology, Health and society, Immunology, Microbiology, Neuroscience and cancer, and
+          Toxicology.</p>
+
         <h5>Publication</h5>
-        <p>The accepted and presented papers <b>will be submitted to</b> proceedings <a
-          href="https://www.bio-conferences.org/about-the-journal/indexed-in" target="_blank">BIO Web of Conferences
-          (CPCI)</a>. <b>Selected papers</b> will be submitted to <a href="http://www.e-mjm.org/about_MJM.html"
-          target="_blank">Medical Journal of Malaysia</a> (<a
-          href="https://www.scimagojr.com/journalsearch.php?q=17838&tip=sid&clean=0" target="_blank">Special issue,
-          Scopus Q3</a>), <a href="https://medic.upm.edu.my/jurnal_kami-3046" target="_blank">Malaysian Journal of
-          Medicine & Health Sciences</a> (<a
-          href="https://www.scimagojr.com/journalsearch.php?q=11300153737&tip=sid&clean=0" target="_blank">Special
-          issue, Scopus Q4</a>), <a href="https://inabj.org/index.php/ibj" target="_blank">Indonesian Biomedical
-          Journal</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100843245&tip=sid&clean=0"
-          target="_blank">Scopus Q4</a>), <a href="http://indonesianjpharm.farmasi.ugm.ac.id/index.php/3"
-          target="_blank">Indonesian Journal of Pharmacy</a> (<a
-          href="https://www.scimagojr.com/journalsearch.php?q=21100867470&tip=sid&clean=0" target="_blank">Scopus
-          Q3</a>), <a href="https://jurnal.ugm.ac.id/ijbiotech" target="_blank">Indonesian Journal of
-          Biotechnology</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100935800&tip=sid&clean=0"
-          target="_blank">Scopus Q4</a>), and <a href="http://ajstd.org/" target="_blank">ASEAN Journal on Science and
-          Technology for Development</a> (<a href="https://sinta.ristekbrin.go.id/journals/detail?id=1623"
-          target="_blank">Sinta S1</a>).</p>
-          <a href="editorial-policy.html"><button class="btn btn-primary">Read editorial policy</button></a>
-        
-        <h5 style="padding-top: 15px;">Invited speakers</h5>
-        
-          <!-- Retno Supriyanti -->
-          <div class="row">
-          <div class="col-md-4 d-flex align-items-end flex-column py-3">
-            <img src="../images/speakers/2021_retno.jpg" class="speaker-img">
-          </div>
-          <div class="col-md-8 pt-3">
-            <h6>P<span style="text-transform: lowercase;">rof.</span> Retno Supriyanti</h6>
-            <p>Universitas Jenderal Soedirman, Indonesia</p>
-          </div>
-          </div>
-          <!-- Prashant Kumar Sharma -->
-          <div class="row">
-          <div class="col-md-4 d-flex align-items-end flex-column py-3">
-            <img src="../images/speakers/2021_prashant.png" class="speaker-img">
-          </div>
-          <div class="col-md-8 pt-3">
-            <h6>D<span style="text-transform: lowercase;">r.</span> Prashant Kumar Sharma</h6>
-            <p>Groningen University, The Netherland</p>
-          </div>
-          </div>
+        <p>The accepted and presented papers <b>has been submitted for possible inclusion to</b> journals/proceedings
+          that are indexed by Scopus/Clarivate Analytics/DOAJ: <a
+            href="https://www.bio-conferences.org/about-the-journal/indexed-in" target="_blank">BIO Web of
+            Conferences</a> (Scopus), <a href="https://www.e-mjm.org/about_MJM.html" target="_blank">Medical Journal of
+            Malaysia</a> (Regular issue, <a href="https://www.scimagojr.com/journalsearch.php?q=17838&tip=sid&clean=0"
+            target="_blank">Scopus Q3</a>), <a href="https://medic.upm.edu.my/jurnal_kami-3046"
+            target="_blank">Malaysian Journal of Medicine & Health Sciences</a> (Supplementary issue, <a
+            href="https://www.scimagojr.com/journalsearch.php?q=11300153737&tip=sid&clean=0" target="_blank">Scopus
+            Q4</a>), <a href="https://jurnal.ugm.ac.id/ijbiotech" target="_blank">Indonesian Journal of
+            Biotechnology</a> (<a href="https://www.scimagojr.com/journalsearch.php?q=21100935800&tip=sid&clean=0"
+            target="_blank">Scopus Q4</a>), <a href="https://journal.ugm.ac.id/jtbb" target="_blank">Journal of Tropical
+            Biodiversity and Biotechnology</a>
+          (<a href="https://www.scimagojr.com/journalsearch.php?q=21101039846&tip=sid&clean=0" target="_blank">Scopus
+            Q4</a>), <a href="https://jurnal.ugm.ac.id/v3/IJP/1#7" target="_blank">Indonesian Journal of Pharmacy</a>
+          (<a href="https://www.scimagojr.com/journalsearch.php?q=21100867470&tip=sid&clean=0" target="_blank">Scopus
+            Q3</a>), <a href="https://inabj.org/index.php/ibj/about/editorialPolicies#focusAndScope"
+            target="_blank">Indonesian Biomedical Journal</a> (<a
+            href="https://www.scimagojr.com/journalsearch.php?q=21100843245&tip=sid&exact=no" target="_blank">Scopus
+            Q3</a>),
+          <a href="https://jurnal.ugm.ac.id/TradMedJ/" target="_blank">Traditional Medicine Journal</a> (Scopus).
+        </p>
+        <a href="editorial-policy.html"><button class="btn btn-primary">Read editorial policy</button></a>
 
         <h5 style="padding-top: 15px;">Committee</h5>
-        <p><b>Coordinator for Biomedical Sciences:</b> dr. Junaedy Yunus, Ph.D.<br>
-          <b>Coordinator for Biomedical Engineering:</b> Rini Dharmastiti, Ph.D.<br>
+        <p><b>Coordinators:</b> Dr. Riris Istighfari Jenie, S.Farm., M.Si., Apt. (<em>Universitas Gadjah Mada,
+            Indonesia</em>)<br>
+          dr. Junaedy Yunus, Ph.D. (<em>Universitas Gadjah Mada, Indonesia</em>)<br>
           <b>Members:</b><br>
-          dr. Dwi Aris Agung Nugrahaningsih, Ph.D.<br>
-drg. Heni Susilowati, Ph.D.<br>
-Dr. drg. Siti Sunarintyas<br>
-drg. Heribertus Dedy Kusuma Yulianto, Ph.D.<br>
-dr. Dyah Listyarifah, M.Sc.<br>
-Abrory Agus Cahya Pramana, S.Si., M.Sc.
-          </p>
+          drg. Heni Susilowati, M.Kes., Ph.D. (<em>Universitas Gadjah Mada, Indonesia</em>)<br>
+          Dr. drg. Siti Sunarintyas, M.Kes. (<em>Universitas Gadjah Mada, Indonesia</em>)<br>
+          drg. Heribertus Dedy K. Yulianto, M.Biotech., Ph.D. (<em>Universitas Gadjah Mada, Indonesia</em>)<br>
+          Dr. drg. Ananto Ali Alhasyimi, MDSc. , Sp.Ort. (<em>Universitas Gadjah Mada, Indonesia</em>)<br>
+          Drg. Aryan Morita, MSc., Ph.D. (<em>Universitas Gadjah Mada, Indonesia</em>)<br>
+          Dr. Adhyatmika, M.Biotech., Apt. (<em>Universitas Gadjah Mada, Indonesia</em>)<br>
+          dr. Dyah Listyarifah, M.Sc. (<em>Universitas Gadjah Mada, Indonesia</em>)<br>
+          Ir. Rini Dharmastiti, M.Sc., Ph.D. (<em>Universitas Gadjah Mada, Indonesia</em>)
+        </p>
       </div>
     </div>
   </section>
@@ -244,7 +284,7 @@ Abrory Agus Cahya Pramana, S.Si., M.Sc.
           </p>
           <p>
             <a href="https://biomicugm.tawk.help/" target="_blank" class="btn btn-primary"><i
-                  class="fa-solid fa-headset"></i>&nbsp;&nbsp;BioMIC UGM Helpdesk</a>
+                class="fa-solid fa-headset"></i>&nbsp;&nbsp;BioMIC UGM Helpdesk</a>
           </p>
         </div>
       </div>
@@ -265,10 +305,9 @@ Abrory Agus Cahya Pramana, S.Si., M.Sc.
         Journal of Malaysia logo © Malaysian Medical Association. Malaysian Journal of Medicine & Health Sciences ©
         Universiti Putra Malaysia. Indonesian Biomedical Journal © Prodia Education and Research Institute. ASEAN
         Journal on Science and Technology for Development © ASEAN Committee on Science and Technology (COST). Scopus
-        logo © Elsevier B.V. 
-        Symposium image by <a
-          href="https://unsplash.com/photos/4w0XkDe2Ee8" target="_blank">ThisisEngineering RAEng</a> (<a
-          href="https://unsplash.com/license" target="_blank">Free to use</a>). 
+        logo © Elsevier B.V.
+        Symposium image by <a href="https://unsplash.com/photos/4w0XkDe2Ee8" target="_blank">ThisisEngineering RAEng</a>
+        (<a href="https://unsplash.com/license" target="_blank">Free to use</a>).
         Icons by <a target="_blank" href="https://fontawesome.com/docs/changelog/">Font Awesome 6.4.0</a>
         (Fonticons Inc. <a target="_blank" href="https://fontawesome.com/license"><i
             class="fab fa-creative-commons-pd-alt"></i></a>).
