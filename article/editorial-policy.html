@@ -7,7 +7,7 @@
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
     name="viewport">
 
-  <title>Editorial policy - BioMIC 2021</title>
+  <title>Editorial policy - BioMIC UGM 2023</title>
 
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700" rel="stylesheet">
@@ -19,11 +19,17 @@
   <link href="../stylesheets/custom.css" rel="stylesheet" />
 
   <!-- JAVASCRIPT -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="../javascripts/bootstrap.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
-  <script src="../javascripts/gtag.js"></script>
+  <script src="../javascripts/bootstrap.bundle.js"></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RE2REFGTQR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RE2REFGTQR');
+</script>
 
 
   <!-- FAVICON -->
@@ -39,12 +45,12 @@
 
 <body class="index">
 
-  <header style="background-color: #f8f7fd; box-shadow: 0 1px 2px 0 #e1e5ea;">
+  <header style="background-color: #eeedf2; box-shadow: 0 1px 2px 0 #e1e5ea;">
     <!-- NAVBAR -->
     <nav class="navbar bg-primary pt-1">
       <div class="container">
         <a class="navbar-brand"><span class="nav me-auto pt-1" style="color: #fff; font-size: 9pt">Yogyakarta,
-            Indonesia. 6–7 October 2021</span></a>
+            Indonesia. 6–7 September 2023</span></a>
         <ul class="nav">
           <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
               href="https://twitter.com/biomicugm" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
@@ -60,7 +66,7 @@
     </nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand"><img src="../images/logos/logo.svg" width="100px"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../images/logos/logo.svg" width="80px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
           aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -68,21 +74,70 @@
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
           aria-labelledby="offcanvasNavbar2Label">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC 2021</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC UGM 2023</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
               aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="satellite-events.html">Satellite events</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About BioMIC 2023</a></li>
+                  <li><a class="dropdown-item" href="../index.html#important-dates">Important dates</a></li>
+                  <li><a class="dropdown-item" href="about.html#committee">Committees</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="https://biomic.ugm.ac.id/previous">Previous conferences</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="satellite-events.html">All event</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="big-data-for-public-health-policy.html">BDPHP Symposium</a></li>
+                  <li><a class="dropdown-item" href="bioinformatics-and-data-mining.html">BDM Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomedical-sciences-and-engineering.html">BSE Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomolecular-and-biotechnology.html">BB Symposium</a></li>
+                  <li><a class="dropdown-item" href="drug-development-and-nutraceutical.html">DDN Symposium</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="speakers.html">Speakers</a></li>
-              <li class="nav-item"><a class="nav-link active" href="author-guidelines.html">Author</a></li>
-              <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Author
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="author-guidelines.html">Author guidelines</a></li>
+                  <li><a class="dropdown-item" href="editorial-policy.html">Editorial policy</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="submission.html">Submission</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item"
+                      href="https://www.bio-conferences.org/articles/bioconf/abs/2023/20/contents/contents.html"
+                      target="_blank">Publication</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
-              <li class="nav-item"><a class="nav-link" href="presentation.html">Presentation</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://biomicugm.tawk.help/">Help</a></li>
+              <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
+              <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
+              <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
             </ul>
           </div>
         </div>
@@ -91,22 +146,16 @@
     </nav>
   </header>
 
+  <!-- CONTENTS -->
   <h1>Editorial <span style="color: #ff9800;">policy</span></h1>
 
   <section>
     <div class="container pb-5">
-      <h2>Focus and scope</h2>
-      <p>The 4th International Conference on Bioinformatics, Biotechnology, and Biomedical Engineering (BioMIC 2021) provides an ideal academic platform for researchers to present the latest research findings and describe emerging technologies and directions in bioinformatics, biotechnology, and biomedical engineering.</p>
-      <p>This year, the conference will take the theme “Artificial Intelligence, Big Data and Precision Healthcare:
-        A Vision of the Future” with <a href="satellite-events.html">five symposia</a>:
-        <a href="big-data-for-public-health-policy.html">Big Data for Public Health Policy symposium</a>;
-        <a href="bioinformatics-and-data-mining.html">Bioinformatics and Data Mining symposium</a>;
-        <a href="biomedical-sciences-and-engineering.html">Biomedical Sciences and Engineering symposium</a>;
-        <a href="biomolecular-and-biotechnology.html">Biomolecular and Biotechnology symposium</a>; and
-        <a href="drug-development-and-nutraceutical.html">Drug Development and Nutraceutical symposium</a>.
-      </p>
+      <h5>Focus and scope</h5>
+      <p>The 5<sup>th</sup> International Conference on Bioinformatics, Biotechnology, and Biomedical Engineering (BioMIC 2023) provides an ideal academic platform for researchers to present the latest research findings and describe emerging technologies and directions in bioinformatics, biotechnology, and biomedical engineering.</p>
+      <p>This year, the conference will take the theme "<b>Accelerating translational healthcare by leveraging big data and machine learning</b>" with <a href="satellite-events.html">five symposia</a>: <a href="big-data-for-public-health-policy.html">Big Data for Public Health Policy symposium</a>, <a href="bioinformatics-and-data-mining.html">Bioinformatics and Data Mining symposium</a>, <a href="biomedical-sciences-and-engineering.html">Biomedical Sciences and Engineering symposium</a>, <a href="biomolecular-and-biotechnology.html">Biomolecular and Biotechnology symposium</a>, and <a href="drug-development-and-nutraceutical.html">Drug Development and Nutraceutical symposium</a>.</p>
 
-<h2>Peer-review process</h2>
+<h5>Peer-review process</h5>
 <p>All submitted manuscripts are read by the editorial staff. Those manuscripts evaluated by editors to be inappropriate to conference criteria are rejected promptly without external review. Manuscripts evaluated to be of potential interest to our readership are sent to blind reviewers. The submitted papers will be peer-reviewed based on relevance and timeliness, technical content and scientific rigor, novelty and originality, and their quality of presentation. The editors then decide based on the reviewer’s recommendation from among several possibilities: rejected, require major revision, or need minor revision. Authors can check the status of their manuscript anytime from their account in the EDAS. The committee will notify authors via email when the review process is finished. After the authors get the notification of acceptance, authors need to finalize their final manuscript in accordance with the author guidelines and review results.</p>
 <p>Review process:</p>
 <ol>
@@ -117,16 +166,16 @@
  	<li>Notification to the authors</li>
 </ol>
 
-<h2>Publication ethics</h2>
+<h5>Publication ethics</h5>
 <p>BioMIC committees adheres to the COPE Guidelines for Transparency and Best Practice in Scholarly Publishing.</p>
 <a href="https://publicationethics.org/resources/guidelines" target="_blank" rel="noopener" class="btn btn-primary">Read publication ethics</a>
 
-<h2 class="pt-3">Code of Conduct</h2>
+<h5 class="pt-3">Code of Conduct</h5>
 <p>BioMIC committees adheres to the code of conduct statement we apply as described in the COPE code of conduct.</p>
 <a href="https://publicationethics.org/resources/code-conduct" target="_blank" rel="noopener" class="btn btn-primary">Read code of conduct</a>
 
-<h2 class="pt-3">Attending in the conference</h2>
-<p>After your final manuscript and presentation document has been submitted, you also need to attend the conference for a live Q&amp;A session. Please note that you need to make time on October 6&ndash;7 in the <a href="presentation.html" rel="noopener" target="_blank">Zoom meeting</a>, because the conference program cannot be rescheduled and must be in accordance with the program given by the committee.</p>
+<h5 class="pt-3">Attending in the conference</h5>
+<p>After your final manuscript and presentation document has been submitted, you also need to attend the conference for a live Q&A session. Please note that you need to make time on September 6–7 in the Yogyakarta, Indonesia, because the conference program cannot be rescheduled and must be in accordance with the program given by the committee.</p>
 <p>If you are unable to attend for any reason, make sure that one of the co-authors can replace your presence. Change of attendance will result in a change of name listed in the certificate which we will send by email. Unpresented papers will be removed from publication and automatically declared as rejected.</p>
     </div>
   </section>
