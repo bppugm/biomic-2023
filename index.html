@@ -7,7 +7,7 @@
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
     name="viewport">
 
-  <title>BioMIC 2023</title>
+  <title>BioMIC UGM 2023</title>
 
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700" rel="stylesheet">
@@ -21,9 +21,15 @@
   <!-- JAVASCRIPT -->
   <script src="javascripts/bootstrap.js"></script>
   <script src="javascripts/bootstrap.bundle.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
-  <script src="javascripts/gtag.js"></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RE2REFGTQR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RE2REFGTQR');
+</script>
 
 
   <!-- FAVICON -->
@@ -39,7 +45,7 @@
 
 <body class="index">
 
-  <header style="background-color: #f8f7fd; box-shadow: 0 1px 2px 0 #e1e5ea;">
+  <header style="background-color: #eeedf2; box-shadow: 0 1px 2px 0 #e1e5ea;">
     <!-- NAVBAR -->
     <nav class="navbar bg-primary pt-1">
       <div class="container">
@@ -60,7 +66,7 @@
     </nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand"><img src="images/logos/logo.svg" width="100px"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/logos/logo.svg" width="80px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
           aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -68,7 +74,7 @@
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
           aria-labelledby="offcanvasNavbar2Label">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC 2023</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC UGM 2023</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
               aria-label="Close"></button>
           </div>
@@ -90,12 +96,15 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Satellite events
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Events
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="article/satellite-events.html">All events</a></li>
-                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="article/satellite-events.html">All event</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
                   <li><a class="dropdown-item" href="article/big-data-for-public-health-policy.html">BDPHP Symposium</a></li>
                   <li><a class="dropdown-item" href="article/bioinformatics-and-data-mining.html">BDM Symposium</a></li>
                   <li><a class="dropdown-item" href="article/biomedical-sciences-and-engineering.html">BSE Symposium</a></li>
@@ -105,21 +114,29 @@
               </li>
               <li class="nav-item"><a class="nav-link" href="article/speakers.html">Speakers</a></li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
                   Author
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="article/author-guidelines.html">Author guidelines</a></li>
                   <li><a class="dropdown-item" href="article/editorial-policy.html">Editorial policy</a></li>
-                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
                   <li><a class="dropdown-item" href="article/submission.html">Submission</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item"
+                      href="https://www.bio-conferences.org/articles/bioconf/abs/2023/20/contents/contents.html"
+                      target="_blank">Publication</a></li>
                 </ul>
               </li>
+              <li class="nav-item"><a class="nav-link" href="article/program.html">Program</a></li>
               <li class="nav-item"><a class="nav-link" href="article/fee.html">Fee</a></li>
               <li class="nav-item"><a class="nav-link" href="article/venue.html">Venue</a></li>
-              <li class="nav-item"><a class="nav-link" href="article/program.html">Program</a></li>
-              <!-- <li class="nav-item"><a class="nav-link" href="https://fb.me/biomicugm">News</a></li> -->
-              <!-- <li class="nav-item"><a class="nav-link" href="https://biomicugm.tawk.help/">Help</a></li> -->
+              <li class="nav-item"><a class="nav-link" href="article/gallery.html">Gallery</a></li>
             </ul>
           </div>
         </div>
@@ -292,7 +309,6 @@
             <a href="article/author-guidelines.html">Author guidelines</a><br>
             <a href="article/editorial-policy.html">Editorial policy</a><br>
             <a href="article/submission.html">Submission</a><br>
-            <a href="article/presentation.html">Presentation</a><br>
           </p>
           <h6 style="color: #ff9800">Explore</h6>
           <p>
@@ -335,8 +351,7 @@
         UGM, BioMIC, Indonesian Journal of Pharmacy, and Indonesian Journal of Biotechnology logos © Universitas Gadjah
         Mada. BIO Web of Conferences logo © EDP Sciences. Clarivate Analytics logo © Clarivate Analytics. Medical
         Journal of Malaysia logo © Malaysian Medical Association. Malaysian Journal of Medicine & Health Sciences ©
-        Universiti Putra Malaysia. Indonesian Biomedical Journal © Prodia Education and Research Institute. ASEAN
-        Journal on Science and Technology for Development © ASEAN Committee on Science and Technology (COST). Scopus
+        Universiti Putra Malaysia. Indonesian Biomedical Journal © Prodia Education and Research Institute. Scopus
         logo © Elsevier B.V.
         Jumbotron image by <a href="https://www.freepik.com/free-vector/molecules-seamless-pattern-science-microbiology-concept-chemistry-atom-structure-biology-texture-molecular_10701109.htm" target="_blank">macrovector</a> (Modified; <a href="https://www.freepikcompany.com/privacy#priv-rights" target="_blank">Free to use</a>). 
         Icons by <a target="_blank" href="https://fontawesome.com/docs/changelog/">Font Awesome 6.4.0</a>
