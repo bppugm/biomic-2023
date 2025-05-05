@@ -7,7 +7,7 @@
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
     name="viewport">
 
-  <title>Conference fee - BioMIC 2021</title>
+  <title>Conference fee - BioMIC UGM 2023</title>
 
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700" rel="stylesheet">
@@ -19,11 +19,17 @@
   <link href="../stylesheets/custom.css" rel="stylesheet" />
 
   <!-- JAVASCRIPT -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="../javascripts/bootstrap.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
-  <script src="../javascripts/gtag.js"></script>
+  <script src="../javascripts/bootstrap.bundle.js"></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RE2REFGTQR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RE2REFGTQR');
+</script>
 
 
   <!-- FAVICON -->
@@ -39,12 +45,12 @@
 
 <body class="index">
 
-  <header style="background-color: #f8f7fd; box-shadow: 0 1px 2px 0 #e1e5ea;">
+  <header style="background-color: #eeedf2; box-shadow: 0 1px 2px 0 #e1e5ea;">
     <!-- NAVBAR -->
     <nav class="navbar bg-primary pt-1">
       <div class="container">
         <a class="navbar-brand"><span class="nav me-auto pt-1" style="color: #fff; font-size: 9pt">Yogyakarta,
-            Indonesia. 6–7 October 2021</span></a>
+            Indonesia. 6–7 September 2023</span></a>
         <ul class="nav">
           <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
               href="https://twitter.com/biomicugm" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
@@ -60,7 +66,7 @@
     </nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand"><img src="../images/logos/logo.svg" width="100px"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../images/logos/logo.svg" width="80px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
           aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -68,21 +74,70 @@
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
           aria-labelledby="offcanvasNavbar2Label">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC 2021</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC UGM 2023</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
               aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="satellite-events.html">Satellite events</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About BioMIC 2023</a></li>
+                  <li><a class="dropdown-item" href="../index.html#important-dates">Important dates</a></li>
+                  <li><a class="dropdown-item" href="about.html#committee">Committees</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="https://biomic.ugm.ac.id/previous">Previous conferences</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="satellite-events.html">All event</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="big-data-for-public-health-policy.html">BDPHP Symposium</a></li>
+                  <li><a class="dropdown-item" href="bioinformatics-and-data-mining.html">BDM Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomedical-sciences-and-engineering.html">BSE Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomolecular-and-biotechnology.html">BB Symposium</a></li>
+                  <li><a class="dropdown-item" href="drug-development-and-nutraceutical.html">DDN Symposium</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="speakers.html">Speakers</a></li>
-              <li class="nav-item"><a class="nav-link" href="author-guidelines.html">Author</a></li>
-              <li class="nav-item"><a class="nav-link active" href="fee.html">Fee</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Author
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="author-guidelines.html">Author guidelines</a></li>
+                  <li><a class="dropdown-item" href="editorial-policy.html">Editorial policy</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="submission.html">Submission</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item"
+                      href="https://www.bio-conferences.org/articles/bioconf/abs/2023/20/contents/contents.html"
+                      target="_blank">Publication</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
-              <li class="nav-item"><a class="nav-link" href="presentation.html">Presentation</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://biomicugm.tawk.help/">Help</a></li>
+              <li class="nav-item"><a class="nav-link active" href="fee.html">Fee</a></li>
+              <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
+              <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
             </ul>
           </div>
         </div>
@@ -91,6 +146,7 @@
     </nav>
   </header>
 
+  <!-- CONTENTS -->
   <h1>Conference <span style="color: #ff9800;">fee</span></h1>
 
   <section>
@@ -99,7 +155,7 @@
         <div class="col-lg-8">
           <br>
           <h3>Payment procedure</h3>
-          <p>If you want to participate in the conference, there are four steps that you need to follow to make a payment in the BioMIC 2021.</p>
+          <p>If you want to participate in the conference, there are four steps that you need to follow to make a payment in the BioMIC 2023.</p>
           <div class="accordion" id="accordionPayment">
             <!-- Payment nominal -->
             <div class="accordion-item">
@@ -135,24 +191,34 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <th scope="row">Early bird discount (until September 13)</th>
-                          <td>US$150</td>
+                          <td scope="row">Early bird discount (until August 14)</td>
+                          <td>US$275</td>
                         </tr>
                         <tr>
-                          <th scope="row">Regular</th>
+                          <td scope="row">Regular</td>
+                          <td>US$300</td>
+                        </tr>
+                        <tr>
+                          <td scope="row">Additional paper(s)</td>
                           <td>US$175</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">Additional paper(s)</th>
-                          <td>US$150</td>
                         </tr>
                       </tbody>
                       <thead class="table-primary">
                         <tr>
                           <th scope="col">Non-presenter</th>
-                          <th scope="col">Free of charge</th>
+                          <th scope="col"></th>
                         </tr>
                       </thead>
+                      <tbody>
+                        <tr>
+                          <td scope="row">Early bird discount (until August 14)</td>
+                          <td>US$100</td>
+                        </tr>
+                        <tr>
+                          <td scope="row">Regular</td>
+                          <td>US$150</td>
+                        </tr>
+                      </tbody>
                     </table>
                   </div>
                 </div>
@@ -180,23 +246,34 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <th scope="row">Early bird discount (until September 13)</th>
-                          <td>IDR1,500,000</td>
+                          <td scope="row">Early bird discount (until August 14)</td>
+                          <td>IDR2,750,000</td>
                         </tr>
                         <tr>
-                          <th scope="row">Regular</th>
+                          <td scope="row">Regular</td>
+                          <td>IDR3,000,000</td>
+                        </tr>
+                        <tr>
+                          <td scope="row">Additional paper(s)</td>
                           <td>IDR1,750,000</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">Additional paper(s)</th>
-                          <td>IDR1,500,000</td>
                         </tr>
                       </tbody>
                       <thead class="table-primary">
                         <tr>
                           <th scope="col">Non-presenter</th>
-                          <th scope="col">Free of charge</th>
+                          <th scope="col"></th>
                         </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td scope="row">Early bird discount (until August 14)</td>
+                          <td>IDR1,000,000</td>
+                        </tr>
+                        <tr>
+                          <td scope="row">Regular</td>
+                          <td>IDR1,500,000</td>
+                        </tr>
+                      </tbody>
                       </thead>
                     </table>
                   </div>
@@ -219,14 +296,13 @@
               </h2>
               <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionPayment">
                 <div class="accordion-body">
-                  Payments cannot be made in cash; they must be via credit card or bank transfer to the BioMIC UGM account below:<br><br>
-                  <b>Payment via credit card (USD)</b><br>
-                  For international presenter who submits their manuscript in the EDAS system. We do not recommend the local presenter to pay the conference fee via credit card because the EDAS payment currency is USD.<br><br>
-                  <b>Payment via bank account (IDR)</b><br>
-                  For local presenter (Indonesia) can pay the conference fee to:<br>
-                  Account number: 9888-8002-2102-0003<br>
-                  Account name: BIOMIC<br>
-                  Bank name: BNI 46
+                  <p>Payments cannot be made in cash; they must be via <b>credit card</b> or <b>bank transfer</b> to the BioMIC UGM account below:</p>
+                  <p><b>Payment via credit card (USD)</b><br>For international presenter who submit their manuscript to the EDAS system. We do not recommend the local presenter to pay the conference fee via credit card because the EDAS payment currency is USD.</p>
+                  <p><b>Payment via bank account (IDR)</b><br>
+                    For local presenter (Indonesia) can pay the conference fee to:<br>
+                    Account number: 9888-8002-2102-0003<br>
+                    Account name: BIOMIC<br>
+                    Bank name: BNI 46</p>
                 </div>
               </div>
             </div>
@@ -242,16 +318,19 @@
               </h2>
               <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionPayment">
                 <div class="accordion-body">
-                  Before confirming your payment in the confirmation form, you need to prepare these following items:<br>
-                  <ul>
-                    <li>The scanned or screenshot of your payment proof in JPG / JPEG / PDF format.</li>
-                    <li>Your paper ID(s).</li>
-                    <li>The attendee/presenter name.</li>
-                  </ul>
-                  You can find your paper ID in the EDAS as shown by this following image:<br>
-                  <img class="rounded mb-3 img-tutorial" src="../images/tutorials/edas-paperID.png"><br>
-                    <a href="https://edas.info/" target="_blank" class="btn btn-primary">Check my paper ID</a>&nbsp;
-                    <a href="https://airtable.com/shrVWXNbAkvW3J6fP" target="_blank" class="btn btn-invprimary disabled">Confirm my payment</a>
+                  <p>Before confirming your payment in the confirmation form, you need to prepare these following items:<br>
+                    <ul>
+                      <li>The scanned or screenshot of your payment proof in <code>JPG</code> / <code>PDF</code> format.</li>
+                      <li>Your paper ID(s).</li>
+                      <li>The attendee/presenter name.</li>
+                    </ul></p>
+                    <p>You can find your paper ID in the EDAS as shown by this following image:</p>
+                    <img class="rounded mb-3 img-tutorial" src="../images/tutorials/edas-paperID.png"><br>
+                        <a href="https://edas.info/" target="_blank" class="btn btn-primary">Check my paper ID</a>&nbsp;
+                        <a href="https://airtable.com/shrh4eJLWwauxNSri" target="_blank" class="btn btn-invprimary disabled">Confirm my payment</a>
+                    <hr>
+                    <p><h6>Wait for the next 2–3 business days for us to verify your payment</h6>
+                      Please make sure not to miss the date. The deadline for the payment confirmation is on August 18, but you will get an <b>early-bird discount if you pay before August 14</b>. If you <u>did not pay</u> via credit card in the EDAS, you <u>do not need to</u> click the register icon in the EDAS. The committee will register it for you after reviewing your payment.</p>
                 </div>
               </div>
             </div>
@@ -269,8 +348,8 @@
                 <div class="accordion-body">
                   <ul>
                   <li>Wait for the next 2–3 business days for us to verify your payment. Please make sure not to miss the date.</li>
-                  <li><b>The deadline for the payment confirmation is on September 16</b>, but you will get an early-bird discount if you pay before September 13.</li>
-                  <li>If you did not pay via credit card in the EDAS, you do not need to click the register icon in the EDAS. The committee will register it for you after reviewing your payment.</li>
+                  <li>The deadline for the payment confirmation is on <b>August 18</b>, but you will get an <b>early-bird discount if you pay before August 14</b>.</li>
+                  <li>If you <u>did not pay</u> via credit card in the EDAS, you <u>do not need to</u> click the register icon in the EDAS. The committee will register it for you after reviewing your payment.</li>
                   <li>If you still require further assistance, please feel free to <a href="mailto:biomic@ugm.ac.id" target="_blank">contact us</a>.</li>
                 </ul>
                 </div>
@@ -282,19 +361,17 @@
           <div class="alert alert-info">
           <h6>Terms and conditions</h6>
           <ol type="1">
-            <li>The registration fee covers seminar materials, attendance of all technical sessions, and publication (excluded accomodation).</li>
-            <li>Participants will be charged additional fees for publication based on the selected publisher. We will inform it to you after the conference finished.</li>
-            <li>The registration fee covers one person only. Multiple authors who are attending must register separately, and those who are not presenting should register as a non-presenter.</li>
-            <li>A non-presenter participant can attend two selected sessions only and won't get any seminar materials. Each session has limited participants.</li>
-            <li>A receipt will be generated from the payment confirmation details after your payment is verified.</li>
+            <li>The registration fee covers seminar materials, lunch, morning and afternoon teas, attendance of all technical sessions, and publication (excluding accommodation).</li>
+            <li>The registration fee covers one person only. Multiple attending authors must register separately, and those not presenting should register as non-presenters.</li>
+            <li>After verifying your payment, a receipt will be generated from the payment confirmation details.</li>
             <li>Payments are nonrefundable.</li>
-            <li>Payments cannot be made in cash; they must be via e-billing or credit card.</li>
+            <li>Payments cannot be made in cash; they must be made via e-billing or credit card.</li>
             <li>Participants are responsible for transfer fees and bank charges.</li>
             <li>At least one author for each accepted paper must register as a presenter.</li>
-            <li>Participants are charged based on their institution/affiliation not the nationality of the first author.</li>
-            <li>Submitting an extra paper is applicable only to the same presenter.</li>
-            <li style="font-weight: 500;">Participants cannot pay the conference fee before they get acceptance notification email.</li>
-            <li>The early bird discount will be expired on September 13, 23:59 am (GMT+7).</li>
+            <li>Participants are charged based on their institution/affiliation, not the nationality of the first author.</li>
+            <li>Submitting an extra paper applies only to the same presenter.</li>
+            <li><b>Participants can only pay the conference fees after receiving an acceptance notification email.</b></li>
+            <li>The early bird discount will be expired on <b>August 14, 23:59 am (GMT+7)</b>.</li>
           </ol>
           </div>
         </div>
