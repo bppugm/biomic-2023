@@ -7,7 +7,7 @@
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
     name="viewport">
 
-  <title>Submission - BioMIC 2021</title>
+  <title>Conference venue - BioMIC UGM 2023</title>
 
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700" rel="stylesheet">
@@ -19,11 +19,17 @@
   <link href="../stylesheets/custom.css" rel="stylesheet" />
 
   <!-- JAVASCRIPT -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="../javascripts/bootstrap.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
-  <script src="../javascripts/gtag.js"></script>
+  <script src="../javascripts/bootstrap.bundle.js"></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RE2REFGTQR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RE2REFGTQR');
+</script>
 
 
   <!-- FAVICON -->
@@ -39,12 +45,12 @@
 
 <body class="index">
 
-  <header style="background-color: #f8f7fd; box-shadow: 0 1px 2px 0 #e1e5ea;">
+  <header style="background-color: #eeedf2; box-shadow: 0 1px 2px 0 #e1e5ea;">
     <!-- NAVBAR -->
     <nav class="navbar bg-primary pt-1">
       <div class="container">
         <a class="navbar-brand"><span class="nav me-auto pt-1" style="color: #fff; font-size: 9pt">Yogyakarta,
-            Indonesia. 6–7 October 2021</span></a>
+            Indonesia. 6–7 September 2023</span></a>
         <ul class="nav">
           <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
               href="https://twitter.com/biomicugm" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
@@ -60,7 +66,7 @@
     </nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand"><img src="../images/logos/logo.svg" width="100px"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../images/logos/logo.svg" width="80px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
           aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -68,21 +74,70 @@
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
           aria-labelledby="offcanvasNavbar2Label">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC 2021</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BioMIC UGM 2023</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
               aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="satellite-events.html">Satellite events</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About BioMIC 2023</a></li>
+                  <li><a class="dropdown-item" href="../index.html#important-dates">Important dates</a></li>
+                  <li><a class="dropdown-item" href="about.html#committee">Committees</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="https://biomic.ugm.ac.id/previous">Previous conferences</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="satellite-events.html">All event</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="big-data-for-public-health-policy.html">BDPHP Symposium</a></li>
+                  <li><a class="dropdown-item" href="bioinformatics-and-data-mining.html">BDM Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomedical-sciences-and-engineering.html">BSE Symposium</a></li>
+                  <li><a class="dropdown-item" href="biomolecular-and-biotechnology.html">BB Symposium</a></li>
+                  <li><a class="dropdown-item" href="drug-development-and-nutraceutical.html">DDN Symposium</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="speakers.html">Speakers</a></li>
-              <li class="nav-item"><a class="nav-link active" href="author-guidelines.html">Author</a></li>
-              <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Author
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="author-guidelines.html">Author guidelines</a></li>
+                  <li><a class="dropdown-item" href="editorial-policy.html">Editorial policy</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="submission.html">Submission</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item"
+                      href="https://www.bio-conferences.org/articles/bioconf/abs/2023/20/contents/contents.html"
+                      target="_blank">Publication</a></li>
+                </ul>
+              </li>
               <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
-              <li class="nav-item"><a class="nav-link" href="presentation.html">Presentation</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://biomicugm.tawk.help/">Help</a></li>
+              <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
+              <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://biomic-ugm.notion.site/Gallery-8f7945dff1fa40b7908b25f43a2d9928" target="_blank">Gallery</a></li>
             </ul>
           </div>
         </div>
@@ -91,6 +146,7 @@
     </nav>
   </header>
 
+  <!-- CONTENTS -->
   <h1>Manuscript <span style="color: #ff9800;">submission</span></h1>
 
   <section>
@@ -102,7 +158,7 @@
         <div class="col-lg-8">
           <br class="d-none d-lg-block"><br>
           <h2>Hi, applicants!</h2>
-          <p>To participate as a presenter in the BioMIC 2021, there are eight steps that you need to follow.</p>
+          <p>To participate as a presenter in the BioMIC 2023, there are eight steps that you need to follow.</p>
           <div class="accordion">
             <!-- 1. Create an EDAS account -->
             <div class="accordion-item">
@@ -122,7 +178,7 @@
                       manuscript using your registered account.</p>
                   </div>
                   <h6>1. Go to the EDAS site</h6>
-                  <p>Type <a href="https://edas.info/newPaper.php?c=28450" target="_blank" rel="noopener">edas.info</a>
+                  <p>Type <a href="https://edas.info/newPaper.php?c=31023" target="_blank" rel="noopener">edas.info</a>
                     on your browser and click <code>Create a new account</code> below the login form.</p>
                   <img class="rounded mb-3 img-tutorial" src="../images/tutorials/edas-create-new-account.png" />
                   <hr style="width: 75%" />
@@ -174,12 +230,12 @@
                         <p>Manuscript format and content in accordance with the author guidelines.</p>
                       </li>
                     </ul>
-                    <a href="https://edas.info/N28450" target="_blank" rel="noopener" class="btn btn-primary disabled">Submit my
+                    <a href="https://edas.info/N31023" target="_blank" rel="noopener" class="btn btn-primary disabled">Submit my
                       manuscript</a>&nbsp;
                     <a href="editorial-policy.html" class="btn btn-invprimary">Read editorial policy</a>
                   </div>
-                  <h6>1. Log in to the IC<span style="text-transform: lowercase;">o</span>SIA 2022 EDAS site</h6>
-                  <p>Type <a href="https://edas.info/N28450" target="_blank" rel="noopener"> edas.info/N28450</a> and
+                  <h6>1. Log in to the B<span style="text-transform: lowercase;">io</span>MIC 2023 EDAS site</h6>
+                  <p>Type <a href="https://edas.info/N31023" target="_blank" rel="noopener"> edas.info/N31023</a> and
                     log in to your EDAS account.</p>
                   <img class="rounded mb-3 img-tutorial" src="../images/tutorials/edas-login.png" />
                   <hr style="width: 75%" />
@@ -291,8 +347,8 @@
                   <img class="rounded mb-3 img-tutorial" src="../images/tutorials/edas-paperID.png" /><br>
                   <hr style="width: 75%" />
                   <h6>4. Wait for the next 2–3 business days for us to verify your payment</h6>
-                  <p>Please make sure not to miss the date. The deadline for the payment confirmation is on September 16,
-                    but you will get an early-bird discount if you pay before September 13. If you did not pay via credit
+                  <p>Please make sure not to miss the date. The deadline for the payment confirmation is on August 18,
+                    but you will get an early-bird discount if you pay before August 14. If you did not pay via credit
                     card in the EDAS, you do not need to click the register icon in the EDAS. The committee will
                     register it for you after reviewing your payment.</p>
                   <p>If you still require further assistance, please feel free to <a
@@ -327,8 +383,7 @@
                   <p style="padding-top: 15px;">The corresponding author must check the title, list of authors, and
                     their affiliations in the EDAS
                     system and their manuscript. Any revision could not be made after uploading the camera-ready version
-                    by
-                    November 16.</p>
+                    by August 24.</p>
 
                   <!-- next step -->
                   <div class="alert alert-success">
@@ -366,8 +421,8 @@
                   <!-- next step -->
                   <div class="alert alert-success">
                     <h6>Your camera-ready manuscript has been submitted!</h6>
-                    <p style="margin-bottom: 0px;">Now, you need to submit your pre-recorded video. Do not worry, you
-                      can still revised your pre-recorded video until October 5.</p>
+                    <p style="margin-bottom: 0px;">Now, you need to submit your presentation materials. Do not worry, you
+                      can still revised your presentation materials until August 24.</p>
                   </div>
                 </div>
               </div>
@@ -387,15 +442,15 @@
                 <div class="accordion-body">
                   <p>In the <a href="https://edas.info" target="_blank">EDAS dashboard page</a>, click your paper title
                     and upload the <code>PPT</code> or <code>PPTX</code> or <code>PDF</code> documents by
-                    clicking the cloud icon in <code>Virtual Presentation</code>. Approve the public release (if available).</p>
-                  <p>If you have any issues with uploading your pre-recorded video, please <a
+                    clicking the cloud icon in <code>Presentation</code>. Approve the public release (if available).</p>
+                  <p>If you have any issues with uploading your presentation materials, please <a
                       href="mailto:biomic@ugm.ac.id">contact us</a>. As a reminder, document that are not received by
                     the deadline will be considered no-shows in accordance with the non-presented paper policy.</p>
 
                   <!-- next step -->
                   <div class="alert alert-success">
-                    <h6>Your pre-recorded video has been submitted!</h6>
-                    <p style="margin-bottom: 0px;">Now, you need to present on the conference day on October 6–7. If you cannot present on the conference day, you manuscript will be considered
+                    <h6>Your presentation materials has been submitted!</h6>
+                    <p style="margin-bottom: 0px;">Now, you need to present on the conference day on September 6–7. If you cannot present on the conference day, you manuscript will be considered
                       no-shows in accordance with the non-presented paper policy.</p>
                   </div>
                 </div>
@@ -414,8 +469,8 @@
               </h2>
               <div id="panelsStayOpen-collapse8" class="accordion-collapse collapse show">
                 <div class="accordion-body">
-                  <p>After your camera-ready manuscript and pre-recorded video has been submitted, you also need to attend
-                    the conference for a live Q&amp;A session. Please note that you need to make time on October 6&ndash;7 in the <a href="presentation.html">Zoom meeting</a>, because the
+                  <p>After your camera-ready manuscript and presentation materials has been submitted, you also need to attend
+                    the conference for a live Q&amp;A session. Please note that you need to make time on September 6–7 in the <a href="venue.html">conference venue</a>, because the
                     conference program cannot be rescheduled and must be in accordance with the program given by the
                     committee.</p>
                   <p>If you are unable to attend for any reason, make sure that one of the co-authors can
@@ -436,13 +491,16 @@
       <!-- Sponsors -->
       <div class="text-center pt-3">
         <img src="../images/logos/ugm.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <img src="../images/publication/bio.svg" class="px-3 my-2" style="filter: grayscale();" height="30px">
-        <img src="../images/publication/clarivate-analytics.svg" class="px-3 my-2" style="filter: grayscale();"
-          height="40px">
-        <img src="../images/publication/mjmhs.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <img src="../images/publication/ijbiotech.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <img src="../images/publication/ijp.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <img src="../images/publication/scopus.svg" class="px-3 my-2" style="filter: grayscale();" height="30px">
+        <img src="../images/publication/bio.svg" class="px-3 my-2" style="filter: grayscale();" height="25px">
+        <img src="../images/publication/ijbiotech.svg" class="px-3 my-2" style="filter: grayscale();" height="35px">
+        <img src="../images/publication/ijp.svg" class="px-3 my-2" style="filter: grayscale();" height="35px">
+        <img src="../images/publication/mjmhs.svg" class="px-3 my-2" style="filter: grayscale();" height="35px">
+        <img src="../images/publication/mjm.jpeg" class="px-3 my-2" style="filter: grayscale();" height="35px">
+        <img src="../images/publication/jtbb.jpeg" class="px-3 my-2" style="filter: grayscale();" height="35px">
+        <img src="../images/publication/mot.jpeg" class="px-3 my-2" style="filter: grayscale();" height="35px">
+        <img src="../images/publication/inabj.jpeg" class="px-3 my-2" style="filter: grayscale();" height="35px">
+        <img src="../images/publication/scopus.svg" class="px-3 my-2" style="filter: grayscale();" height="25px">
+        <img src="../images/publication/clarivate-analytics.svg" class="px-3 my-2" style="filter: grayscale();" height="25px">
       </div>
       <hr class="mx-auto my-3" style="border-color: #ccc;">
 
@@ -453,21 +511,20 @@
           <p>
             <a href="about.html">About</a><br>
             <a href="../index.html#important-dates">Important dates</a><br>
-            <a href="speakers.html">Speakers</a><br>
-            <a href="about.html#advisor">Committees</a><br>
+            <a href="#advisor">Committees</a><br>
             <a href="fee.html">Fee</a><br>
-            <a href="program.html">Program</a><br>
-            <a href="https://biomicugm.tawk.help/">Help</a>
+            <a href="speakers.html">Speakers</a><br>
+            <a href="https://biomic-ugm.notion.site/Gallery-8f7945dff1fa40b7908b25f43a2d9928" target="_blank">Gallery</a><br>
           </p>
         </div>
         <div class="col-md-3">
-          <h6 style="color: #ff9800">Satellite events</h6>
+          <h6 style="color: #ff9800">Events</h6>
           <p>
-            <a href="big-data-for-public-health-policy.html">BDPHP symposium</a><br>
-            <a href="bioinformatics-and-data-mining.html">BDM symposium</a><br>
-            <a href="biomedical-sciences-and-engineering.html">BSE symposium</a><br>
-            <a href="biomolecular-and-biotechnology.html">BB symposium</a><br>
-            <a href="drug-development-and-nutraceutical.html">DDN symposium</a>
+            <a href="big-data-for-public-health-policy.html">BDPHP Symposium</a><br>
+            <a href="bioinformatics-and-data-mining.html">BDM Symposium</a><br>
+            <a href="biomedical-sciences-and-engineering.html">BSE Symposium</a><br>
+            <a href="biomolecular-and-biotechnology.html">BB Symposium</a><br>
+            <a href="drug-development-and-nutraceutical.html">DDN Symposium</a>
           </p>
         </div>
         <div class="col-md-3">
@@ -476,12 +533,13 @@
             <a href="author-guidelines.html">Author guidelines</a><br>
             <a href="editorial-policy.html">Editorial policy</a><br>
             <a href="submission.html">Submission</a><br>
-            <a href="presentation.html">Presentation</a><br>
+            <a href="program.html">Program</a>
           </p>
           <h6 style="color: #ff9800">Explore</h6>
           <p>
-            <a href="https://ugm.ac.id/en" target="_blank">Universitas Gadjah Mada</a><br>
-            <a href="https://visitingjogja.jogjaprov.go.id/" target="_blank">City of Yogyakarta</a>
+            <a href="https://biomic.ugm.ac.id/previous" target="_blank">Previous conference</a><br>
+            <a href="venue.html">Conference venue</a><br>
+            <a href="https://ugm.ac.id/en" target="_blank">Universitas Gadjah Mada</a>
           </p>
         </div>
         <div class="col-md-3">
@@ -493,14 +551,12 @@
               target="_blank">biomicugm</a><br>
             <i class="fa-brands fa-square-instagram"></i> <a href="https://www.instagram.com/biomicugm"
               target="_blank">biomicugm</a><br>
-            <i class="fa-brands fa-square-twitter"></i> <a href="https://www.twitter.com/bpp_ugm"
-              target="_blank">BPP_UGM</a><br>
-            <i class="fa-brands fa-square-instagram"></i> <a href="https://www.instagram.com/publikasiugm"
-              target="_blank">publikasiugm</a>
+            <i class="fa-brands fa-square-instagram"></i> <a href="https://www.instagram.com/ugmyogyakarta"
+              target="_blank">UGMYogyakarta</a>
           </p>
           <p>
-            <a href="https://biomicugm.tawk.help/" target="_blank" class="btn btn-primary"><i
-                class="fa-solid fa-headset"></i>&nbsp;&nbsp;BioMIC UGM Helpdesk</a>
+            <a href="https://wa.me/628112576950" target="_blank"><button type="button" class="btn btn-primary"><i
+                  class="fa-solid fa-headset"></i>&nbsp;&nbsp;BioMIC UGM Helpdesk</button></a>
           </p>
         </div>
       </div>
@@ -508,24 +564,27 @@
       <hr class="mx-auto my-3" style="border-color: #ccc;">
 
       <!-- Credits -->
-      <p class="credit text-muted text-justify">The International Conference on Bioinformatics, Biotechnology, and
-        Biomedical Engineering 2021,
-        organized by <a target="_blank" href="https://publikasi.ugm.ac.id/en/">BPP UGM</a>.
-        Website has been redeveloped by <a target="_blank" href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> using
-        <a target="_blank" href="https://getbootstrap.com/docs/5.3">Bootstrap v5.3.0-alpha3</a>,
-        and licenced as <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
-          4.0</a>,
-        <a target="_blank" href="https://github.com/bppugm/biomic-2021">unless otherwise stated</a>.
-        UGM, BioMIC, Indonesian Journal of Pharmacy, and Indonesian Journal of Biotechnology logos © Universitas Gadjah
-        Mada. BIO Web of Conferences logo © EDP Sciences. Clarivate Analytics logo © Clarivate Analytics. Medical
-        Journal of Malaysia logo © Malaysian Medical Association. Malaysian Journal of Medicine & Health Sciences ©
-        Universiti Putra Malaysia. Indonesian Biomedical Journal © Prodia Education and Research Institute. ASEAN
-        Journal on Science and Technology for Development © ASEAN Committee on Science and Technology (COST). Scopus
-        logo © Elsevier B.V. Illustration image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-people-waving-illustration_21559261.htm" target="_blank">pikisuperstar</a> (<a href="https://www.freepikcompany.com/legal?_gl=1*1mzv534*fp_ga*NDY3NDMwMDk4LjE2ODA3MjU1NjI.*fp_ga_QWX66025LC*MTY4MDkyMzUzOS41LjEuMTY4MDkyMzU4My4xNi4wLjA.*_ga*NDY3NDMwMDk4LjE2ODA3MjU1NjI.*_ga_18B6QPTJPC*MTY4MDkyMzUzOS41LjAuMTY4MDkyMzU0Mi41Ny4wLjA.#nav-freepik-license" target="_blank">Free to use</a>). 
-        Icons by <a target="_blank" href="https://fontawesome.com/docs/changelog/">Font Awesome 6.4.0</a>
+      <p class="credit text-muted" style="text-align: justify;">The International Conference on Bioinformatics,
+        Biotechnology, and Biomedical Engineering 2023, organized by <a target="_blank"
+          href="https://publikasi.ugm.ac.id/en/">BPP UGM</a>. Website has been developed by <a target="_blank"
+          href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> with
+        contribution by Ma'ruf, and it has been redeveloped by <a target="_blank"
+          href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> using
+        <a target="_blank" href="https://getbootstrap.com/docs/5.3">Bootstrap v5.3.3</a>, and licenced as <a
+          rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, <a
+          target="_blank" href="https://github.com/bppugm/biomic-2023">unless otherwise stated</a>. 
+          UGM, BioMIC, Indonesian Journal of Pharmacy, Traditional Medicine Journal, and Indonesian Journal of Biotechnology logos © Universitas Gadjah Mada. 
+        BIO Web of Conferences logo © EDP Sciences. 
+        Medical Journal of Malaysia logo © Malaysian Medical Association. 
+        Malaysian Journal of Medicine & Health Sciences © Universiti Putra Malaysia. 
+        Indonesian Biomedical Journal © Prodia Education and Research Institute. 
+        Scopus logo © Elsevier B.V. Clarivate Analytics logo © Clarivate Analytics. 
+        Icons by <a target="_blank"
+          href="https://fontawesome.com/docs/changelog/">Font Awesome 6.4.0</a>
         (Fonticons Inc. <a target="_blank" href="https://fontawesome.com/license"><i
             class="fab fa-creative-commons-pd-alt"></i></a>).
-        Website © 2023 <a target="_blank" href="https://publikasi.ugm.ac.id/en/">Badan Penerbit dan Publikasi UGM</a>.
+        Website © 2023&ndash;2025 <a target="_blank" href="https://penelitian.ugm.ac.id/en/">UGM's Research
+          Directorate</a>.
       </p>
     </div>
   </footer>
